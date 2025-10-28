@@ -1,0 +1,564 @@
+NIM,Nama,Jenis Kelamin,Prodi,Skor 1,Skor 2,Skor 3,Skor 4,Pemrosesan,Persepsi,Input,Pemahaman
+21SA1194,Rizky Aulia Rahman,Laki-laki,Informatika,-1,5,-5,-7,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Global Sedang
+21SA1086,Muhammad Thoriq Jamil,Laki-laki,Informatika,-3,7,-3,1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+21SA1158,Velizha Sandy Kusuma,Perempuan,Informatika,-3,-5,1,-3,Reflektif Rendah,Intuitif Sedang,Visual Rendah,Global Rendah
+21SA1220,Aldona Septiana,Perempuan,Informatika,-5,-1,-1,-3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+21SB1022,Refita Dwi Nurjanah,Perempuan,Bisnis Digital,1,-1,-5,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+21SB1054,Maulita Nur Sejati,Perempuan,Bisnis Digital,-7,3,-1,3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+21SB1043,Rizky Widi Ardhiany,Perempuan,Bisnis Digital,3,-3,-5,-3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+21SA1251,Aden Hidayatuloh,Laki-laki,Informatika,-5,1,-3,-3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+21SA1116,Dede Nurzaman,Laki-laki,Informatika,-3,-1,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+21SA1158,Velizha Sandy Kusuma,Perempuan,Informatika,1,-1,1,-5,Aktif Rendah,Intuitif Rendah,Visual Rendah,Global Sedang
+21SA1121,Ikhsan Dwi Seto,Laki-laki,Informatika,-5,-1,1,3,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Sequential Rendah
+21SA1194,Rizky Aulia Rahman,Laki-laki,Informatika,1,3,-7,1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+21SA1202,Naufal Yogi Aptana,Laki-laki,Informatika,-3,-1,1,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+21SA3046,Dwi Angga Ferdianto,Laki-laki,Teknologi Informasi,3,5,-3,-3,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+21SA3092,Bangkit Anom Sedhayu,Laki-laki,Teknologi Informasi,-3,-3,-5,-3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA11A074,Mohamad Ridho Mubarok,Laki-laki,Informatika,-1,1,-3,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A134,Maria Angelina Cahyani Candrakasih,Perempuan,Informatika,1,-3,-5,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SA31A027,Tresnanda Agsifa Cakra Buana,Laki-laki,Teknologi Informasi,-5,5,1,1,Reflektif Sedang,Sensing Sedang,Visual Rendah,Sequential Rendah
+22sa11a038,Ndaru Febrian Pujo Leksono,Laki-laki,Informatika,-1,1,-7,-3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SA11A035,Nurul Khotimah Ansyari,Perempuan,Informatika,-5,-1,-5,3,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SA11A102,Salma Ngarifatul Khofiyah,Perempuan,Informatika,1,-3,-3,7,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+22SA11A101,Epri Anggriani,Perempuan,Informatika,-3,-1,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A094,Dayana Rofiqoh,Perempuan,Informatika,-3,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA21A001,Evril Fadrekha Cahyani,Perempuan,Sistem Informasi,1,3,-5,-1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SA11A276,Friskha Amellia Eddy,Perempuan,Informatika,1,-5,3,-1,Aktif Rendah,Intuitif Sedang,Visual Rendah,Global Rendah
+22SA21A050,Muhammad Faiz,Laki-laki,Sistem Informasi,-3,-1,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A086,Anggie Maesyaroh,Perempuan,Informatika,1,-3,-7,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA11A027,Wisnu Pratama aji,Laki-laki,Informatika,-1,3,3,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+22SA11A265,DEVAN RIZKY SAPUTRA ZEBUA,Laki-laki,Informatika,-7,-1,-1,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA11A289,Mahmudi,Laki-laki,Informatika,-1,-5,-3,-1,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Global Rendah
+22sa11a042,M kevin maulana yusuf,Laki-laki,Informatika,1,3,1,-5,Aktif Rendah,Sensing Rendah,Visual Rendah,Global Sedang
+22SA11A093,Daidi Lazaurdi,Laki-laki,Informatika,-1,-3,3,3,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+22SA11A030,Alifani Maulia,Perempuan,Informatika,3,-1,3,-3,Aktif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+22SA11A028,UNGGUL AMIRULLAH,Laki-laki,Informatika,-5,1,-3,-1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A097,Aditya Okta Saputra,Laki-laki,Informatika,-1,-5,-5,-1,Reflektif Rendah,Intuitif Sedang,Verbal Sedang,Global Rendah
+22SA11A084,Amin Syabani,Laki-laki,Informatika,1,5,-1,-1,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+22SA11A041,BAEHAQI WAHYU KURNIAWAN,Laki-laki,Informatika,-1,3,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA11A098,safandi mulkti,Laki-laki,Informatika,-5,3,1,-5,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Sedang
+22SA11A108,SENDI SYAHREZA,Laki-laki,Informatika,1,-3,-5,-3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA11A018,Firli Nur Solafudin,Laki-laki,Informatika,-3,-1,-1,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A025,Rizki Adi Saputra,Laki-laki,Informatika,-1,3,-3,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A053,Zaki Marsa Fauzan,Laki-laki,Informatika,-1,3,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22sa11a257,ZANUAR GESIT DIAN AMANTA,Laki-laki,Informatika,-1,-1,-3,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA11A001,Muhamad Rahmat Santoso,Laki-laki,Informatika,3,1,-3,-3,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A078,Abdullah Husain,Laki-laki,Informatika,-1,1,-1,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+22SA11A031,Rikcho Jordy Frans,Laki-laki,Informatika,3,-1,-5,-3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA11A085,Andhika Rizky Ramadhan,Laki-laki,Informatika,-5,-1,-3,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA11A069,Eka Rahma Agustina,Perempuan,Informatika,-3,3,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA11A266,HILMY ALGHIFARI SAFIK,Laki-laki,Informatika,-1,1,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA11A054,ARY DIAN PRATAMA,Laki-laki,Informatika,1,-3,-9,1,Aktif Rendah,Intuitif Rendah,Verbal Kuat,Sequential Rendah
+22SA11A271,Hidayati Nur Utami,Perempuan,Informatika,1,3,-5,-3,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SA11A167,Rizki Ilham Fauzi Suherman,Laki-laki,Informatika,-1,-1,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA11A071,Anas Nur Khafid,Laki-laki,Informatika,-5,-1,-1,-3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A071,Anas Nur Khafid,Laki-laki,Informatika,-5,-1,-1,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA11A236,WASIS RIFKY PAMUJI,Laki-laki,Informatika,-5,3,-3,-1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A073,ALFARIZKI PRAGUMA MARGIONO,Laki-laki,Informatika,-7,-1,-3,-1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A190,Mochammad Musa Ibrahim,Laki-laki,Informatika,-5,-1,7,-5,Reflektif Sedang,Intuitif Rendah,Visual Sedang,Global Sedang
+22SA11A087,Anisaa Qothrunnada Khoirunnita,Perempuan,Informatika,-1,-3,-1,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA11A178,Husna Maulida,Perempuan,Informatika,-3,1,1,5,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Sedang
+22-131,Irul aja,Laki-laki,Informatika,-5,-3,-7,-3,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA21A004,Alfina Nur Aeni,Perempuan,Sistem Informasi,3,1,-7,1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SA11A156,Rizki Pamuji,Laki-laki,Informatika,-1,-1,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA21A162,Lulu Amnah Fitriya Maharani,Perempuan,Sistem Informasi,-3,3,-3,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A088,Annisa Rizqia Nur Amaliah,Perempuan,Informatika,3,-3,-7,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SA21A174,Evelinda Marsya Asterina,Perempuan,Sistem Informasi,-1,-1,-1,-9,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Kuat
+22SA21A168,ANANDA DYAH ELOK MAHARANI,Perempuan,Sistem Informasi,-1,-3,-5,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SA11A232,Aditya Ari Nugroho,Laki-laki,Informatika,-1,-1,-7,-5,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Sedang
+22SA12345678,MULYONO,Laki-laki,Informatika,-7,-5,-1,-3,Reflektif Sedang,Intuitif Sedang,Verbal Rendah,Global Rendah
+22SA11A168,Alif fiansyah,Laki-laki,Informatika,-1,-1,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA11A148,NUR ALFANI WAHID,Laki-laki,Informatika,-3,-7,-5,5,Reflektif Rendah,Intuitif Sedang,Verbal Sedang,Sequential Sedang
+22SA11A235,ALIFVIAN YUSUF NUR PRATAMA,Laki-laki,Informatika,-1,-3,-3,5,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+22SA11A119,Ginanjar Wisnu Agustrian,Laki-laki,Informatika,-3,3,-1,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A154,Rifqi Dwi Aryanto,Laki-laki,Informatika,1,1,-1,1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA11A240,Agyl Paunturi,Laki-laki,Informatika,-1,5,-1,-1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+22SB11A096,Nur Ardian Maulana,Laki-laki,Bisnis Digital,1,-3,-5,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SB11A092,Satriawan,Laki-laki,Bisnis Digital,-1,1,-5,3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SB11A082,Ahmad Faridho Mujib,Laki-laki,Bisnis Digital,-1,3,-3,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SB11A086,Sakhrul Rifan Hardian,Laki-laki,Bisnis Digital,-3,3,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SB11A095,Ridhwan Yunizhar,Laki-laki,Bisnis Digital,1,-3,3,3,Aktif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+22SB11A079,Saskia Anjelita,Perempuan,Bisnis Digital,1,3,-5,-3,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SB11A090,Nu'maa Nabila Fatwa,Perempuan,Bisnis Digital,3,3,-3,1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SB11A077,Lilian Bening Jati,Perempuan,Bisnis Digital,-1,1,-9,1,Reflektif Rendah,Sensing Rendah,Verbal Kuat,Sequential Rendah
+22SB11A078,Novita Eka,Perempuan,Bisnis Digital,-3,-3,-5,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SB11A040,Fardan Aryo,Laki-laki,Bisnis Digital,3,3,-1,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SB11A097,Nova Syfa Dwi Laedy Anggraeni,Perempuan,Bisnis Digital,-3,7,-5,3,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Sequential Rendah
+22SB11A037,Fahmi Nurkhafi,Laki-laki,Bisnis Digital,-1,3,-9,3,Reflektif Rendah,Sensing Rendah,Verbal Kuat,Sequential Rendah
+22SB11A038,Syiva Alfariza,Perempuan,Bisnis Digital,-3,1,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SB11A081,Jevon Zaki Utomo,Laki-laki,Bisnis Digital,-3,5,-1,1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+22SA11A182,Afra Rihadatul Aisy,Perempuan,Informatika,1,3,-1,-3,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A154,Rifqi Dwi Aryanto,Laki-laki,Informatika,5,-1,-1,5,Aktif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+22SA11A196,Mohamad Rizky Ibnussabil,Laki-laki,Informatika,-5,-1,1,1,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Sequential Rendah
+22SB11A101,Daniels Karnadi,Laki-laki,Bisnis Digital,-5,-5,-3,-3,Reflektif Sedang,Intuitif Sedang,Verbal Rendah,Global Rendah
+22SB11A094,Sheirafina,Perempuan,Bisnis Digital,-3,-1,1,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+22SB11A084,farizal,Laki-laki,Bisnis Digital,-3,7,-3,3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+22SB11A042,Niken Justisia,Perempuan,Bisnis Digital,-3,3,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A243,Dandi Ramadhan,Laki-laki,Informatika,-5,1,-3,5,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Sedang
+22SB11A001,MANDA DWI TIAN AZZAHRA,Perempuan,Bisnis Digital,-3,-1,-1,-7,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Sedang
+22SA11A111,Fini ikhfiani fadilah,Perempuan,Informatika,1,3,-1,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A127,Wiqor Furqoni,Laki-laki,Informatika,-5,1,-3,-1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A152,Ratih Anggraeni,Perempuan,Informatika,-1,-3,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SB11A023,ADEL,Laki-laki,Bisnis Digital,1,-1,-7,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SB11A089,M.LUTHFI HANSEN,Laki-laki,Bisnis Digital,-5,-5,-5,-1,Reflektif Sedang,Intuitif Sedang,Verbal Sedang,Global Rendah
+22SB11A021,Citra Nurul,Perempuan,Bisnis Digital,-3,1,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SB11A055,Risky Akmal Ramadhani,Laki-laki,Bisnis Digital,-1,-1,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SB11A033,Dionisius Arya Setiawan,Laki-laki,Bisnis Digital,-5,1,-7,-1,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Global Rendah
+22SB11A025,HENDI HENDARTONO,Laki-laki,Bisnis Digital,3,-1,-5,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SB11A019,Bernardus Fernan Widiatmojo,Laki-laki,Bisnis Digital,-1,5,-5,-1,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Global Rendah
+22SB11A009,Marseha,Perempuan,Bisnis Digital,-5,-1,-3,3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA21A050,Bang Paiz,Laki-laki,Sistem Informasi,-3,-3,-3,-5,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Sedang
+22SB11A047,Febbyana Pedro Hafiedz,Perempuan,Bisnis Digital,-3,3,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SB21A179,Kania Sayidatina Putri,Perempuan,Ilmu Komunikasi,1,7,1,1,Aktif Rendah,Sensing Sedang,Visual Rendah,Sequential Rendah
+22SB21A020,Nina Ariyani,Perempuan,Ilmu Komunikasi,-3,1,-3,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SB21A164,Lulu Hasna Z,Perempuan,Ilmu Komunikasi,-3,5,1,3,Reflektif Rendah,Sensing Sedang,Visual Rendah,Sequential Rendah
+22SA11A080,Adrian Aji Septa,Laki-laki,Informatika,-3,3,-1,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A068,Didi Prasetyo,Laki-laki,Informatika,-1,-3,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA31A082,AZHAR BINTANG PRAMUDYANTO,Laki-laki,Teknologi Informasi,-3,5,-5,-3,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Global Rendah
+22SA1228,Abdul,Laki-laki,Informatika,1,-3,-5,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SA31A097,Mh. Muchib Science,Laki-laki,Teknologi Informasi,-9,7,-3,-3,Reflektif Kuat,Sensing Sedang,Verbal Rendah,Global Rendah
+22SB21A056,an'nisa dian pratiwi,Perempuan,Ilmu Komunikasi,-5,3,-5,1,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SB21A008,NADYA AMELIA RAKHMADIYAN,Perempuan,Ilmu Komunikasi,1,1,-5,1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SA21A220,Samsul Dwi Cahyo,Laki-laki,Sistem Informasi,-1,5,-1,7,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Sedang
+22SB21A043,Ruyanda Firdaus,Laki-laki,Ilmu Komunikasi,7,5,-1,1,Aktif Sedang,Sensing Sedang,Verbal Rendah,Sequential Rendah
+22SB21A143,Yunesa Sarassyifa Hapsari,Perempuan,Ilmu Komunikasi,3,-1,-5,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SB21A159,Kezia Putri Hapsari,Perempuan,Ilmu Komunikasi,-7,3,-1,5,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Sedang
+22SB21A097,Amanda Saela Sarasati,Perempuan,Ilmu Komunikasi,-9,-1,-1,-5,Reflektif Kuat,Intuitif Rendah,Verbal Rendah,Global Sedang
+22SB21A174,Dennisya Varendita Setiawan,Perempuan,Ilmu Komunikasi,-5,-3,-1,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SB21A002,Tina Trisnawati,Perempuan,Ilmu Komunikasi,1,1,-5,-1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SB21A054,Maypi Arnela,Perempuan,Ilmu Komunikasi,-3,-1,-5,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+22SB21A035,Natania Ferda Armesya,Perempuan,Ilmu Komunikasi,-1,-1,-3,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SB11A011,Sabita Salsabila,Perempuan,Bisnis Digital,-3,3,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA11A048,Farhan Rafi Ramadhan,Laki-laki,Informatika,-5,3,-3,1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22,Lusihuan Angela,Perempuan,Ilmu Komunikasi,1,5,-5,-3,Aktif Rendah,Sensing Sedang,Verbal Sedang,Global Rendah
+22356389,Al Ikhwan Subhan,Laki-laki,Informatika,-5,-3,-3,-1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A104,FACHRI YANUAR NURIAWAN,Laki-laki,Informatika,1,-3,5,-1,Aktif Rendah,Intuitif Rendah,Visual Sedang,Global Rendah
+22SA11A154,Rifqi Dwi Aryanto,Laki-laki,Informatika,-1,5,3,5,Reflektif Rendah,Sensing Sedang,Visual Rendah,Sequential Sedang
+22SA31A120,Yussac Ibna Arif,Laki-laki,Teknologi Informasi,-1,-1,1,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+22SA11A058,Najib Nurdiansyah,Laki-laki,Informatika,-5,3,-7,-1,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Global Rendah
+22SA31A012,Aditya Dwi Erlangga,Laki-laki,Teknologi Informasi,1,-3,-1,3,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA31A109,Muhammad rifqi,Laki-laki,Teknologi Informasi,-9,3,3,-5,Reflektif Kuat,Sensing Rendah,Visual Rendah,Global Sedang
+22SA31A013,Aji Dwi Sanusi,Laki-laki,Teknologi Informasi,-3,-1,1,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+22SA31A017,Rio Mayesta,Laki-laki,Teknologi Informasi,-3,3,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA21A020,Shalsa Bela Dwi Widyawati,Perempuan,Sistem Informasi,-5,-1,-3,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA21A130,Ayesha Tania,Perempuan,Sistem Informasi,-3,1,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+22SA21A023,Catur Risma Utami,Perempuan,Sistem Informasi,-3,1,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SA31A001,Muhamad Saroful Hakim,Laki-laki,Teknologi Informasi,-1,3,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA21A184,Shelly Nila Karlina,Perempuan,Sistem Informasi,3,-3,-3,3,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA21A019,Intan Cipta Oktafiana,Perempuan,Sistem Informasi,-3,-1,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA11A077,Afnan Fathurrahman Hammani,Laki-laki,Informatika,-3,3,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+22SB21A015,Reggyna Ratih Kusuma,Perempuan,Ilmu Komunikasi,-5,1,-1,-3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+22SA11A082,Alif Nur Fadilah,Laki-laki,Informatika,-7,-7,-1,1,Reflektif Sedang,Intuitif Sedang,Verbal Rendah,Sequential Rendah
+22SA21A202,Salsabila Iftinan Khairunnisa,Perempuan,Sistem Informasi,3,3,-1,1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA11A084,Amin Syabani,Laki-laki,Informatika,-3,-1,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA31A023,Ari Eka Putragani,Laki-laki,Teknologi Informasi,-3,3,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+22SA31A049,BELA ADILIA NURANI,Perempuan,Teknologi Informasi,-3,3,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+22SB11A030,Galluh Gedde,Laki-laki,Bisnis Digital,-5,-1,-3,5,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+22SB11A027,Salsabilla Nadya Pangestika,Perempuan,Bisnis Digital,-3,-1,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SB21A019,Gita Mahdalena Pakpahan,Perempuan,Ilmu Komunikasi,-3,-3,1,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+22SA11A257,Zanuar Gesit Dian Amanta,Laki-laki,Informatika,-5,-3,-1,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+22SA31A007,Isa Nur Fathoni,Laki-laki,Teknologi Informasi,-1,-3,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+22SA31A060,Adnan Sidiq,Laki-laki,Teknologi Informasi,-3,-3,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+22SA31A040,Afgha Jameel Aufan,Laki-laki,Teknologi Informasi,3,3,-5,7,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Sedang
+22SA31A058,DEF DE RAYNALD,Laki-laki,Teknologi Informasi,-5,-1,-5,5,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Sedang
+22SA31A109,Muhammad rifqi,Laki-laki,Teknologi Informasi,-5,3,1,5,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Sedang
+22SA11A082,Alif Nur Fadilah,Laki-laki,Informatika,-3,1,-1,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+22SA31A060,Adnan Sidiq,Laki-laki,Teknologi Informasi,1,-3,-5,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SA31A007,Aura Arnelia Zahrani,Perempuan,Teknologi Informasi,-3,-1,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A155,Rifqi Falih Ramadhan,Laki-laki,Informatika,-5,-3,5,1,Reflektif Sedang,Intuitif Rendah,Visual Sedang,Sequential Rendah
+23SA11A148,Ayu,Perempuan,Informatika,-3,-3,3,-3,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA31A064,Handika Pratama,Laki-laki,Teknologi Informasi,-1,-3,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA21A011,Iwan Haryatno,Laki-laki,Sistem Informasi,1,3,1,-1,Aktif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+23SA11A061,Pratistaka 'Azmy Nurrayya,Laki-laki,Informatika,3,-7,-5,3,Aktif Rendah,Intuitif Sedang,Verbal Sedang,Sequential Rendah
+23SA11A081,Eka Nada Rinjani,Perempuan,Informatika,1,-1,-3,3,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A038,Zahra Revadinika Apriliani,Perempuan,Informatika,1,5,-5,1,Aktif Rendah,Sensing Sedang,Verbal Sedang,Sequential Rendah
+23SA11A053,Haekal ahmad zanziban,Laki-laki,Informatika,1,3,-1,5,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Sedang
+23SA11A048,Rivaldo Jeffmarvin,Laki-laki,Informatika,-1,3,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA11A075,DERRI IRAWAN,Laki-laki,Informatika,-9,-1,1,1,Reflektif Kuat,Intuitif Rendah,Visual Rendah,Sequential Rendah
+23SA11A142,SONY SUBAGYO,Laki-laki,Informatika,-1,1,-7,-5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Sedang
+23SA11A045,Refida Septiana Putri,Perempuan,Informatika,-3,-3,-3,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A073,Gusnaeni Indah Pratiwi,Perempuan,Informatika,5,-1,-5,-1,Aktif Sedang,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SA11A044,Reykha Putri Randika,Perempuan,Informatika,-7,3,3,-1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Rendah
+23SA11A054,Iqrom Danang Putra,Laki-laki,Informatika,1,-7,3,-1,Aktif Rendah,Intuitif Sedang,Visual Rendah,Global Rendah
+23SA11A062,Fattah Fibrian,Laki-laki,Informatika,-3,-1,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A060,Adi Maulana Putra Hidayat,Laki-laki,Informatika,-3,-3,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SA11A194,Dicky bagus Prasetyo,Laki-laki,Informatika,1,5,-1,3,Aktif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+23SA11A203,Aji Santoso,Laki-laki,Informatika,3,-1,-9,1,Aktif Rendah,Intuitif Rendah,Verbal Kuat,Sequential Rendah
+23SA11A190,Muhammad Fahat Azam Amirul Faiq,Laki-laki,Informatika,1,-3,-5,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SA11A207,Rahma Wati,Perempuan,Informatika,-3,3,-7,5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Sedang
+23SA11A201,Aghni Syahrul Muarof,Laki-laki,Informatika,-1,1,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A208,Kanzul Sakha Pradipta,Laki-laki,Informatika,1,-1,-3,-3,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A179,Irfan Maulana,Laki-laki,Informatika,-1,1,7,-1,Reflektif Rendah,Sensing Rendah,Visual Sedang,Global Rendah
+23SA11A191,AULIA SAFIRA PUTRI,Perempuan,Informatika,3,-3,1,-3,Aktif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA11A187,BIYAN APRI NUR ALBANI,Laki-laki,Informatika,-3,-3,-7,3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SA11A200,agung septian,Laki-laki,Informatika,-3,-3,3,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+23SA11A175,Rhoy Emiliano De Mozzagie,Laki-laki,Informatika,-1,-1,-7,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SA11A205,Rico Putra Haryono,Laki-laki,Informatika,-3,-1,1,3,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+23SA11A174,ADLIFAN MAULADHANI RAMADHAN,Laki-laki,Informatika,-1,-3,-7,3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SA11A102,Muhammad Farhan Zaidan,Laki-laki,Informatika,1,-1,1,1,Aktif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+23SA11A183,MA'RUF HANDIKA,Laki-laki,Informatika,-1,-1,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A189,NOFRYAN PRADIVA UTAMA,Laki-laki,Informatika,1,3,-7,1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA11A184,ADINDA PANGESTU,Perempuan,Informatika,-7,-1,-5,-7,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Global Sedang
+23SA11A177,Faidzja Ambya Arafah,Laki-laki,Informatika,-1,1,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A178,Ratna Praptiwi,Perempuan,Informatika,-1,5,-1,-5,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Sedang
+23SA11A182,Rayyan Mufti Sholih,Laki-laki,Informatika,7,5,-5,1,Aktif Sedang,Sensing Sedang,Verbal Sedang,Sequential Rendah
+23SA11A197,Rasyid Faiz Abdillah,Laki-laki,Informatika,1,1,-3,1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A176,Aldrian Firmansyah Putranto,Laki-laki,Informatika,-5,1,1,1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA11A180,Rias Estriana,Perempuan,Informatika,-3,1,-7,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A204,Syafiq Septoaji,Laki-laki,Informatika,-1,1,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A211,Rifqi Hawari Al Maji�d,Laki-laki,Informatika,-1,-5,7,3,Reflektif Rendah,Intuitif Sedang,Visual Sedang,Sequential Rendah
+23SA11A202,Diah widi astuti,Perempuan,Informatika,5,1,-5,-5,Aktif Sedang,Sensing Rendah,Verbal Sedang,Global Sedang
+23SA11A193,Brilliant Salsabila Ilmi,Perempuan,Informatika,-5,-5,-3,1,Reflektif Sedang,Intuitif Sedang,Verbal Rendah,Sequential Rendah
+23SA11A210,Elia Saputra Panggabean,Laki-laki,Informatika,-5,-1,1,-5,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Global Sedang
+23sa11a198,Tegar wijaya kusuma,Laki-laki,Informatika,-1,-5,1,1,Reflektif Rendah,Intuitif Sedang,Visual Rendah,Sequential Rendah
+23SA21A141,Oca Meilika Wulandari,Perempuan,Sistem Informasi,-7,1,-7,-3,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A175,Rhoy Emiliano De Mozzagie,Laki-laki,Informatika,-5,-1,3,-1,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA21A137,Eka Arifianto,Laki-laki,Sistem Informasi,1,3,-5,3,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA11A035,ELI LISTIANI,Perempuan,Informatika,-1,-1,1,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA11A013,ANDRE JANUARTA,Laki-laki,Informatika,-5,-3,-1,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A009,Intan Nur Sifa,Perempuan,Informatika,-3,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A015,Muhammad Agus Priyanto,Laki-laki,Informatika,-1,3,3,-1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+23sa11a031,Ruby anfasha mulku kusnendar,Laki-laki,Informatika,3,-3,1,-3,Aktif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA11A021,Okta Rayhan Sutarna,Laki-laki,Informatika,-1,1,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A041,Sofyan Hidayat,Laki-laki,Informatika,-3,-1,-1,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A027,Bagus Darmajati Perdana Putra,Laki-laki,Informatika,-1,-5,3,-1,Reflektif Rendah,Intuitif Sedang,Visual Rendah,Global Rendah
+23SA11A003,Afridho Nur Zaki,Laki-laki,Informatika,3,-5,-3,-1,Aktif Rendah,Intuitif Sedang,Verbal Rendah,Global Rendah
+23SA11A171,Reno Tri Susilo,Laki-laki,Informatika,1,1,-3,5,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Sedang
+23SA11A047,Yahya maolana,Laki-laki,Informatika,-3,-1,3,-3,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA11A005,Irfan Hilal Yasirrizky,Laki-laki,Informatika,-1,1,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A017,Devan maulana satriani,Laki-laki,Informatika,1,1,-3,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11B030,Hakim Annaisaburi,Laki-laki,Informatika,-1,-1,-3,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23sa11a025,Bayu Kusuma Wardana,Laki-laki,Informatika,-1,-1,3,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA11A043,Muhami Jauza Alma Ramadhan,Laki-laki,Informatika,-1,5,-5,5,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Sequential Sedang
+23SA11C216,Ungguh Faizaturrohman,Laki-laki,Informatika,-3,-1,5,-3,Reflektif Rendah,Intuitif Rendah,Visual Sedang,Global Rendah
+23SA11A159,Yofi Yulianto,Laki-laki,Informatika,-1,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A136,VELA RIYANI AGUSTIN,Perempuan,Informatika,-3,-1,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A158,Widhaksa Triawan,Laki-laki,Informatika,-3,5,1,-5,Reflektif Rendah,Sensing Sedang,Visual Rendah,Global Sedang
+23SA11A162,Ivan Akbar Santosa,Laki-laki,Informatika,-3,-3,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A036,Mayza Nurul Khasanatun Nisa,Perempuan,Informatika,-3,-1,7,1,Reflektif Rendah,Intuitif Rendah,Visual Sedang,Sequential Rendah
+23SA11A014,Purnia Setiawati,Perempuan,Informatika,-3,-5,5,-3,Reflektif Rendah,Intuitif Sedang,Visual Sedang,Global Rendah
+23SA31A007,Aura Arnelia Zahrani,Perempuan,Teknologi Informasi,-3,1,-1,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA21A010,Arifah Budi Hidayah,Perempuan,Sistem Informasi,-7,5,1,7,Reflektif Sedang,Sensing Sedang,Visual Rendah,Sequential Sedang
+23saq1a018,karina dwi julia,Perempuan,Informatika,-1,-3,-1,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A048,Rivaldo Jeffmarvin,Laki-laki,Informatika,-3,9,-1,-1,Reflektif Rendah,Sensing Kuat,Verbal Rendah,Global Rendah
+23SA11A099,Hanif Fadhil Abdullah,Laki-laki,Informatika,-7,3,-1,-1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A152,Januar Surya Mukti,Laki-laki,Informatika,-7,-7,-1,-1,Reflektif Sedang,Intuitif Sedang,Verbal Rendah,Global Rendah
+23SA11A153,Khoirun nisa,Perempuan,Informatika,-3,1,-3,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+23SA11A154,Ma'dan Shomsomi,Laki-laki,Informatika,3,1,-5,3,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA11A147,Ali Novian,Laki-laki,Informatika,1,-1,-3,-1,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA21A159,Elsa Faiza Ristian,Perempuan,Sistem Informasi,-7,3,-5,1,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA31A007,Aura Arnelia Zahrani,Perempuan,Teknologi Informasi,-7,5,3,5,Reflektif Sedang,Sensing Sedang,Visual Rendah,Sequential Sedang
+23SB11A044,Aulia Putri Cahyani,Perempuan,Bisnis Digital,-3,-1,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SB21A005,Mutia Nur Azizah,Perempuan,Ilmu Komunikasi,-1,3,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SB21A036,Gita Herlina,Perempuan,Ilmu Komunikasi,3,-3,3,5,Aktif Rendah,Intuitif Rendah,Visual Rendah,Sequential Sedang
+23SB21A007,NISRINA ULFA SALSABILA,Perempuan,Ilmu Komunikasi,-5,3,3,3,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SB11A010,Abimantrana Agra Prartana,Laki-laki,Bisnis Digital,-3,-1,1,-3,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SB11A015,Muhammad Luthfi Ulinuha,Laki-laki,Bisnis Digital,-3,5,-3,1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+23SB11A018,Neva Fradista,Perempuan,Bisnis Digital,-7,3,1,-3,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Rendah
+23SB11A001,Kukuh Akmalsyah Akbar,Laki-laki,Bisnis Digital,-5,1,1,7,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Sedang
+23SB11A017,ZASKIA AMANDA BONITA,Perempuan,Bisnis Digital,3,-1,-3,-3,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SB11A006,Ferdian Saputra,Laki-laki,Bisnis Digital,-3,3,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SB11A080,Muhammad Bintang Cakrakencana,Laki-laki,Bisnis Digital,-5,3,1,1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SB11A038,Reza Wahyu Ramadhan,Laki-laki,Bisnis Digital,3,1,-3,1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB11A022,Niken Ayu Hapsari,Perempuan,Bisnis Digital,-3,3,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB11A002,ANGGA NUR APRILIAN,Laki-laki,Bisnis Digital,-1,1,-7,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SB11A083,Lili Dwi Rahmawati,Perempuan,Bisnis Digital,-1,5,-1,-3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SB21A020,Dwi Ninda Citra Widiastuti,Perempuan,Ilmu Komunikasi,-5,-3,-1,3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SB11A003,Anjely Titis Rahayu,Perempuan,Bisnis Digital,-3,1,-7,-7,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Sedang
+23SB11A020,NURUL ASYFIYA,Perempuan,Bisnis Digital,-3,1,-1,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SB11A008,Luqyana Nida Hafshah,Perempuan,Bisnis Digital,-3,3,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB11A013,Reyhan Abira Ramadhani,Laki-laki,Bisnis Digital,-3,-1,-1,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SB11A025,Nanda Afita,Perempuan,Bisnis Digital,-3,3,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SB11A029,IMAM ASHARI,Laki-laki,Bisnis Digital,-5,-1,1,-1,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Global Rendah
+23SB11A027,Febryan Nur Rizky,Laki-laki,Bisnis Digital,-7,-3,-5,1,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23sb11a026,aldzaki ahnaf syach,Laki-laki,Bisnis Digital,-3,3,-7,-5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Sedang
+23SB11A021,ANJARINGGA CHELKO AMANDO,Laki-laki,Bisnis Digital,-1,-1,-1,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SB11A009,Zidane Rozaq Ronelya,Laki-laki,Bisnis Digital,-7,7,-1,-1,Reflektif Sedang,Sensing Sedang,Verbal Rendah,Global Rendah
+23SB21A089,Florecyta Novelia Putri Ardana,Perempuan,Ilmu Komunikasi,-1,-3,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SB11A069,Nicky Aura Syaharani,Perempuan,Bisnis Digital,-3,1,1,-1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+23SB21A041,Kevin Ray Djayalaras Putra,Laki-laki,Ilmu Komunikasi,-1,3,-7,-5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Sedang
+23SB21A047,Farid Rifqi Amrulloh,Laki-laki,Ilmu Komunikasi,-7,-1,-3,3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SB21A045,Galuh Ilyas Pradanu,Laki-laki,Ilmu Komunikasi,-3,-1,-3,7,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+23SA31A012,Febriansyah Husni Adiatma,Laki-laki,Teknologi Informasi,-7,1,-3,5,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Sedang
+23SB11A083,Lili Dwi Rahmawati,Perempuan,Bisnis Digital,-7,3,-5,1,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA31A064,Handika Pratama,Laki-laki,Teknologi Informasi,-1,1,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA31A065,Fajar Ramadhan,Laki-laki,Teknologi Informasi,-5,1,5,3,Reflektif Sedang,Sensing Rendah,Visual Sedang,Sequential Rendah
+23SA11A168,Muhammad Abdiel Al Hafiz,Laki-laki,Informatika,1,-3,-3,5,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+23SA11A018,Firman Zamzami Aziz,Laki-laki,Informatika,-3,1,-1,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A005,Irfan Hilal Yasirrizky,Laki-laki,Informatika,-1,3,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A031,Ruby Anfasha Mulku Kusnendar,Laki-laki,Informatika,-1,-5,-3,5,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Sequential Sedang
+23SA11A047,Yahya Maolana,Laki-laki,Informatika,-5,3,-1,-3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A015,Muhammad Agus Priyanto,Laki-laki,Informatika,-1,-1,-5,7,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Sedang
+23SA11A026,NOVAL ESA RAMDANY,Laki-laki,Informatika,1,3,-3,-7,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+23SA11A006,Gilang Dely Mukti,Laki-laki,Informatika,-7,7,-9,3,Reflektif Sedang,Sensing Sedang,Verbal Kuat,Sequential Rendah
+23SA11A027,Bagus Darmajati Perdana Putra,Laki-laki,Informatika,-1,-1,3,-5,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Sedang
+23SA11A002,Aulia Suryaning Tyas,Perempuan,Informatika,5,1,-5,-1,Aktif Sedang,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A020,Surya Herwindu Putra Wibawa,Laki-laki,Informatika,5,1,-1,-3,Aktif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A017,devan maulana satriani,Laki-laki,Informatika,-1,1,-5,5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Sedang
+23SA11A019,Vania Chrisalia,Perempuan,Informatika,3,3,-1,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A041,SOFYAN HIDAYAT,Laki-laki,Informatika,1,1,-1,3,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A007,Asri Imbuh G,Perempuan,Informatika,-5,3,-3,3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A025,BAYU KUSUMA WARDANA,Laki-laki,Informatika,-5,-1,-3,5,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+23SA11A024,Rizki Cahya Putri,Perempuan,Informatika,-3,-1,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A013,ANDRE JANUARTA,Laki-laki,Informatika,1,1,-3,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A023,Khinta Ramadhani,Perempuan,Informatika,-9,1,-5,-7,Reflektif Kuat,Sensing Rendah,Verbal Sedang,Global Sedang
+23SA11A032,AKHMAD FAUZAN,Laki-laki,Informatika,-3,1,-1,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A171,Reno Tri Susilo,Laki-laki,Informatika,-5,3,-1,-1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A022,Fadli andika maulana,Laki-laki,Informatika,-1,1,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A021,okta rayhan sutarna,Laki-laki,Informatika,1,-1,-3,7,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+23SA11A043,Muhami Jauza Alma Ramadhan,Laki-laki,Informatika,-3,7,-5,1,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Sequential Rendah
+23SA11A003,Afridho Nur Zaki,Laki-laki,Informatika,3,-7,-7,-3,Aktif Rendah,Intuitif Sedang,Verbal Sedang,Global Rendah
+23SA11A040,MUHAMMAD ZHIYA ULHAQ,Laki-laki,Informatika,1,-1,-3,-5,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Sedang
+23SA11A048,Rivaldo Jeffmarvin,Laki-laki,Informatika,-3,3,3,3,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA11A038,Zahra Revadinika Apriliani,Perempuan,Informatika,-5,3,-5,5,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Sequential Sedang
+23SA11A081,Eka Nada Rinjani,Perempuan,Informatika,1,-1,-5,-3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SA11A055,Ari septiadi,Laki-laki,Informatika,-1,-5,-5,-3,Reflektif Rendah,Intuitif Sedang,Verbal Sedang,Global Rendah
+23SA11A073,GUSNAENI INDAH PRATIWI,Perempuan,Informatika,3,-1,-3,-5,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Sedang
+23SA11064,Khanif haryadi,Laki-laki,Informatika,1,5,-1,-1,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SA11A080,Hafizh Dzaky Ahya Gemilang,Laki-laki,Informatika,-3,-1,-3,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A053,Haekal ahmad zanziban,Laki-laki,Informatika,-3,3,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A069,Maulana muh. Reza bazargan,Laki-laki,Informatika,1,3,-5,-3,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A065,Yusup Ardiyanto,Laki-laki,Informatika,-3,3,-5,5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Sedang
+23SA11A141,Hardika Setiyawan,Laki-laki,Informatika,-3,-1,-9,-3,Reflektif Rendah,Intuitif Rendah,Verbal Kuat,Global Rendah
+23sa11a082,Apriliyanto Dwi Saputra,Laki-laki,Informatika,-1,1,3,3,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA11A044,Reykha Putri Randika,Perempuan,Informatika,-7,3,3,-1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Rendah
+23SA11A054,Iqrom Danang Putra,Laki-laki,Informatika,1,3,-3,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A067,Fadly Dwi Kurniawan,Laki-laki,Informatika,-7,1,-7,1,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA11A045,Refida Septiana Putri,Perempuan,Informatika,-3,-5,-1,-1,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Global Rendah
+23SA11A143,Febi Dwi Sasmita,Perempuan,Informatika,-5,5,-3,-3,Reflektif Sedang,Sensing Sedang,Verbal Rendah,Global Rendah
+23SA11C012,Aziz Ramadhan,Laki-laki,Informatika,-1,1,-3,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+23SA11A059,Augst Nurandini,Perempuan,Informatika,-1,-1,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA11A077,Dyessica Meizheilla,Perempuan,Informatika,-3,-1,-1,-5,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Sedang
+23SA11A050,Rama Dhitsaha Setya Negara,Laki-laki,Informatika,-3,-1,1,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA11A060,ADI MAULANA PUTRA HIDAYAT,Laki-laki,Informatika,-3,1,-5,3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA11A075,DERI IRAWAN,Laki-laki,Informatika,-1,1,-1,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A144,Firman Nur Hidayat,Laki-laki,Informatika,-1,1,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA11A051,Errik Hidayatulloh,Laki-laki,Informatika,-1,-3,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA11A049,Muchammad Ainun Najib,Laki-laki,Informatika,-3,3,-3,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A078,Danu Wijaya,Laki-laki,Informatika,-1,3,-5,-3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SA11A062,Fattah Fibrian,Laki-laki,Informatika,-1,1,1,3,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA11A172,Atiqah Noor Zhaafirah,Perempuan,Informatika,1,3,-3,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A046,Adhisa Nanda Kurnia,Perempuan,Informatika,3,5,-3,-1,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SA31A063,Yunan Yuga Pratama,Laki-laki,Teknologi Informasi,-3,-5,-5,-3,Reflektif Rendah,Intuitif Sedang,Verbal Sedang,Global Rendah
+23SA31A039,Febri Pratama,Laki-laki,Teknologi Informasi,-5,3,-3,3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA31A042,Maolana Nugroho,Laki-laki,Teknologi Informasi,1,5,-3,-1,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SA31A064,Handika Pratama,Laki-laki,Teknologi Informasi,-3,-5,-1,-1,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Global Rendah
+23SA31A058,Noval Ferdiansyah,Laki-laki,Teknologi Informasi,-3,-1,-3,5,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+23SA31A054,Rizkah Novita Nurhikmahwati,Perempuan,Teknologi Informasi,-3,1,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA31A043,Shofwan Halim,Laki-laki,Teknologi Informasi,-1,-1,-5,-5,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Sedang
+23SA31A037,Yerikho Putra Firnandri,Laki-laki,Teknologi Informasi,1,-3,-3,1,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA31A060,Sevtina Ditantia,Perempuan,Teknologi Informasi,-3,1,3,-1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+23SA31A045,RIZKIYANTO,Laki-laki,Teknologi Informasi,-3,-5,-3,-7,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Global Sedang
+23SA31A048,RAHMAN ADI HIDAYAT,Laki-laki,Teknologi Informasi,-5,1,-3,1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB21A005,MUTIA NUR AZIZAH,Perempuan,Ilmu Komunikasi,-1,-1,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SA21A178,JIMLY ASSIDQI HARDIANSYAH,Laki-laki,Sistem Informasi,-7,1,1,3,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA21A011,IWAN HARYATNO,Laki-laki,Sistem Informasi,-1,7,-3,-3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SA31A007,Aura Arnelia Zahrani,Perempuan,Teknologi Informasi,1,5,5,-1,Aktif Rendah,Sensing Sedang,Visual Sedang,Global Rendah
+23SB21A089,Florecyta Novelia Putri Ardana,Perempuan,Ilmu Komunikasi,-5,-1,-5,3,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SB21A085,M Noval Raditya Arghubi,Laki-laki,Ilmu Komunikasi,1,-3,1,-3,Aktif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+23SB21A118,Dede sulaiman,Laki-laki,Ilmu Komunikasi,-1,-5,-3,-3,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Global Rendah
+23SB21A092,Hirzi Shalhi Hasyidan,Laki-laki,Ilmu Komunikasi,-1,5,-3,5,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Sedang
+23SB21A086,Apseli Syifa Anjani,Perempuan,Ilmu Komunikasi,-1,-1,-5,-3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SB21A114,Erlina Fatmawati Abidah,Perempuan,Ilmu Komunikasi,-7,3,-1,1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB21A110,Qayyim Muhammad farros,Laki-laki,Ilmu Komunikasi,-1,3,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SB21A104,Anindya DaraPuspita Sari,Perempuan,Ilmu Komunikasi,-1,7,-1,3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+23SB21A094,prasetyaningtyas,Perempuan,Ilmu Komunikasi,-1,1,-7,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23sb21a088,Syarif ifan pambudi,Laki-laki,Ilmu Komunikasi,1,5,1,5,Aktif Rendah,Sensing Sedang,Visual Rendah,Sequential Sedang
+23SB21A102,Ray Chanizares Sinuhaji,Laki-laki,Ilmu Komunikasi,3,3,-3,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SB21A106,Muhammad Mitqinul Huda,Laki-laki,Ilmu Komunikasi,3,3,-5,1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SB21A121,Desiati,Perempuan,Ilmu Komunikasi,-5,-3,1,1,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Sequential Rendah
+23SB21A082,Naufal Yanuardhi,Laki-laki,Ilmu Komunikasi,-5,-1,-7,7,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Sedang
+23SB21A084,Styvanovsky ARD,Perempuan,Ilmu Komunikasi,-7,3,-7,-3,Reflektif Sedang,Sensing Rendah,Verbal Sedang,Global Rendah
+23SB21A096,Fajar Dwi Andika,Laki-laki,Ilmu Komunikasi,-3,5,-1,-1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SB21A080,Siti Nurohmah,Perempuan,Ilmu Komunikasi,-1,-5,1,1,Reflektif Rendah,Intuitif Sedang,Visual Rendah,Sequential Rendah
+23SB21A113,GAGAH KASUMAJATI,Laki-laki,Ilmu Komunikasi,-1,-1,-5,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SB21A083,Amelia Yohana Putri,Perempuan,Ilmu Komunikasi,-3,3,-3,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+23SB21A100,ANTIK LENYTAMA PRADANI,Perempuan,Ilmu Komunikasi,-1,3,-5,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SB21A105,YUNITA WAHYU KUSUMA WATI,Perempuan,Ilmu Komunikasi,3,-1,-3,-3,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SB21A091,Desi saras wati,Perempuan,Ilmu Komunikasi,-3,-5,-3,1,Reflektif Rendah,Intuitif Sedang,Verbal Rendah,Sequential Rendah
+23SB21A099,Yumna Citra Krisnanda,Perempuan,Ilmu Komunikasi,1,1,-5,-1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+23SB21A090,hanifah novia,Perempuan,Ilmu Komunikasi,-3,-3,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+23SB21A103,Amanda A'isya Bella Tachsya,Perempuan,Ilmu Komunikasi,-1,1,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB21A107,Jovinka Adelia Nova,Perempuan,Ilmu Komunikasi,-1,1,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB21A098,Yunita Damaris A Bria,Perempuan,Ilmu Komunikasi,1,-1,-11,3,Aktif Rendah,Intuitif Rendah,Verbal Kuat,Sequential Rendah
+23SB21A095,Regita Rahma,Perempuan,Ilmu Komunikasi,-7,5,-3,1,Reflektif Sedang,Sensing Sedang,Verbal Rendah,Sequential Rendah
+23SB22A112,Aldreal jiestalino arsli,Laki-laki,Ilmu Komunikasi,-1,9,1,-3,Reflektif Rendah,Sensing Kuat,Visual Rendah,Global Rendah
+23SB2119,sandi pratama,Laki-laki,Teknologi Informasi,-1,1,1,-1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+23SB21,Rafael Titus Setiawan,Laki-laki,Teknologi Informasi,5,-3,-3,3,Aktif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA31A041,Fauziah Noviandini,Perempuan,Teknologi Informasi,1,3,-3,1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA31A015,Faiz akmal supangkat,Laki-laki,Teknologi Informasi,-5,3,-3,-1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+23SA11A079,Arya Bintang Samudra,Laki-laki,Informatika,-3,3,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+23SA21A060,Dede Ari,Laki-laki,Sistem Informasi,-1,-3,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA21A015,Alfina Choerunnisa,Perempuan,Sistem Informasi,-9,-5,-3,1,Reflektif Kuat,Intuitif Sedang,Verbal Rendah,Sequential Rendah
+23SA21A016,Yahya 'Ayyasy,Laki-laki,Sistem Informasi,7,-1,1,-3,Aktif Sedang,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA21A009,Dendi Putra Prakoso,Laki-laki,Sistem Informasi,-1,-3,-7,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SB11A052,Muhammad Adnin Mubarok,Laki-laki,Bisnis Digital,-3,-1,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA21A004,AHMAR DWI UTOMO,Laki-laki,Sistem Informasi,-3,5,-1,5,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Sedang
+23SA21A015,Alfina Choerunnisa,Perempuan,Sistem Informasi,-9,-5,-3,-1,Reflektif Kuat,Intuitif Sedang,Verbal Rendah,Global Rendah
+23SB11A073,Ahmad Alfareza,Laki-laki,Bisnis Digital,-1,-1,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA21A194,Isni Trianita,Perempuan,Sistem Informasi,-3,1,-5,3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SB11A011,Aisyah Yuliasih,Perempuan,Bisnis Digital,-3,5,-1,-3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+23SB11A015,Muhammad Luthfi Ulinuha,Laki-laki,Bisnis Digital,-1,5,-5,-5,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Global Sedang
+23SB11A074,Fadli Hermawan,Laki-laki,Bisnis Digital,3,1,-1,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+23SB11A020,Nurul Asyfiya,Perempuan,Bisnis Digital,-7,1,-3,-3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+23SB11A001,Kukuh Akmalsyah Akbar,Laki-laki,Bisnis Digital,-5,3,-1,-5,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Sedang
+23SB11A075,Fikron Rizki Darmawan,Laki-laki,Bisnis Digital,-3,-1,-5,3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SB11A004,SOFYAN ABDILAH WIJAYA,Laki-laki,Bisnis Digital,-5,-1,-1,5,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+23SA21A183,Alya nur zhafira,Perempuan,Sistem Informasi,-1,-3,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA21A164,Nurul Afifah,Perempuan,Sistem Informasi,-7,1,-1,3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SB11A010,Abimantrana Agra Prartana,Laki-laki,Bisnis Digital,-3,1,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA11A193,Brilliant Salsabila Ilmi,Perempuan,Informatika,-3,-1,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+23SA31A042,Maolan Nugroho,Laki-laki,Teknologi Informasi,-3,-1,-5,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+23SA21A002,Bintang Fadilah Ramadhan,Laki-laki,Sistem Informasi,-5,-1,3,-1,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Global Rendah
+23SA21A187,Fariz Nur Fikri Zaki,Laki-laki,Sistem Informasi,-3,3,1,7,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Sedang
+23SA21A181,Firli Firmansyah Agustin,Laki-laki,Sistem Informasi,-1,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+23SA31A020,Shalsa Sabrina Pungkasari,Perempuan,Teknologi Informasi,-3,-3,-9,-5,Reflektif Rendah,Intuitif Rendah,Verbal Kuat,Global Sedang
+23SA31A056,HABIB MUSTOFA,Laki-laki,Teknologi Informasi,-5,1,-1,1,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+23SA31A016,Linggar Putra Amanda,Laki-laki,Teknologi Informasi,1,1,-5,3,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+23SA21A187,Fariz Nur Fikri Zaki,Laki-laki,Sistem Informasi,-3,1,3,5,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Sedang
+24sa11a121,raka abi muyassar,Laki-laki,Informatika,-1,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA11A168,Anindya Putri Ayu Aurora,Perempuan,Informatika,-1,-3,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA11A026,Hani Tri Laksono,Laki-laki,Informatika,1,-3,-3,1,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SB11A011,Andrea Arif Andanu,Laki-laki,Bisnis Digital,-1,3,7,11,Reflektif Rendah,Sensing Rendah,Visual Sedang,Sequential Kuat
+24SB11A042,Robbi Adi Saputro,Laki-laki,Bisnis Digital,-3,5,-3,1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+24SB11A001,Soma Priambada,Laki-laki,Bisnis Digital,-3,1,3,5,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Sedang
+24SA31A011,Dwi Safitri,Perempuan,Teknologi Informasi,-3,5,-1,-1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+24SA31A037,Aziz Ilham Riyadi,Laki-laki,Teknologi Informasi,-5,-1,-1,-1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA21A031,MUHAMAD DAFA LUTFIANUDDIN FADILLAH,Laki-laki,Sistem Informasi,-1,-1,-5,3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA21A009,HANIF BAHTIAR,Laki-laki,Sistem Informasi,1,-3,-5,1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA21A017,Rendra ditya hutama,Laki-laki,Sistem Informasi,1,1,3,1,Aktif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA21A025,Fabian adi prabhawa putra,Laki-laki,Sistem Informasi,-1,3,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SA21A081,FELIZA PUSPADEWI,Perempuan,Sistem Informasi,-3,-1,-7,-5,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Sedang
+24SA21A044,Bathin Daffa Ramadhan,Laki-laki,Sistem Informasi,-1,1,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SA21A045,Faizurrohim Ramadhani,Laki-laki,Sistem Informasi,-3,-9,-3,3,Reflektif Rendah,Intuitif Kuat,Verbal Rendah,Sequential Rendah
+24SA21A032,Reyhan Maulana Almahi,Laki-laki,Sistem Informasi,-7,-1,-5,1,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA21A007,Juwita Septiani,Perempuan,Sistem Informasi,-1,-7,3,-3,Reflektif Rendah,Intuitif Sedang,Visual Rendah,Global Rendah
+24SA21A011,Marcha Putri Ramadhanti,Perempuan,Sistem Informasi,-3,1,-1,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA21A002,Akbar Priyanto,Laki-laki,Sistem Informasi,3,-3,1,-1,Aktif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+24SA21A036,Stella Putriseptiyani Septeragil,Perempuan,Sistem Informasi,-3,-1,-1,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA21A069,aditya saputra,Laki-laki,Sistem Informasi,5,-5,-1,-1,Aktif Sedang,Intuitif Sedang,Verbal Rendah,Global Rendah
+24SA21A008,NEVADA AFRYZAL SUGI ALAM NASYROH,Laki-laki,Sistem Informasi,-1,3,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+24SA21A070,Angger Dwi Laksana,Laki-laki,Sistem Informasi,-3,3,-5,-7,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Sedang
+24SA21A004,Zakki Maulana Maghribi,Laki-laki,Sistem Informasi,1,3,-1,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA12A018,syaima farah falikhah,Perempuan,Sistem Informasi,1,-1,-1,-1,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA21A079,Denaya Fadilah,Perempuan,Sistem Informasi,1,1,-7,5,Aktif Rendah,Sensing Rendah,Verbal Sedang,Sequential Sedang
+24SA21A038,Afrizal Rifqi Dharmawan,Laki-laki,Sistem Informasi,-7,1,-1,-5,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Sedang
+24SA21A076,arif setiabudi,Laki-laki,Sistem Informasi,-1,-1,1,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+24SA21A005,ILHAM ZULIYANTO,Laki-laki,Sistem Informasi,-7,-3,-3,-1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA21A006,JOVAN BUDI SAGITA,Laki-laki,Sistem Informasi,-3,1,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA21A028,PANJI NUR SASONGKO,Laki-laki,Sistem Informasi,1,3,-7,-1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+24SA21A003,FADILA NUR SYIFA,Perempuan,Sistem Informasi,-1,5,-5,1,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Sequential Rendah
+24SA21A069,ADITYA SAPUTRA DARMAWAN,Laki-laki,Sistem Informasi,-1,5,-5,1,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Sequential Rendah
+24SA21A021,Alfi Nazilatun Muntafi'ah,Perempuan,Sistem Informasi,-1,-1,3,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+24SA21A035,Rico Dian Saputro,Laki-laki,Sistem Informasi,-1,-1,1,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+24SA21A010,Vevinciya Dila Dita,Perempuan,Sistem Informasi,-7,-1,-5,1,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA31A029,Muhammad Rafa Fadhila,Laki-laki,Teknologi Informasi,-1,-3,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA31A019,Daffa Maulana Akhmad Muzakki,Laki-laki,Teknologi Informasi,-7,-1,1,1,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Sequential Rendah
+24SA31A055,DAVY IRSYAD TULLOH,Laki-laki,Teknologi Informasi,-5,-1,-9,-1,Reflektif Sedang,Intuitif Rendah,Verbal Kuat,Global Rendah
+24SA31A037,AZIZ ILHAM RIYADI,Laki-laki,Teknologi Informasi,-5,1,1,-1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Rendah
+24A31A038,LUGHRI WIJAYA PAMUNGKAS,Laki-laki,Teknologi Informasi,-7,-3,3,3,Reflektif Sedang,Intuitif Rendah,Visual Rendah,Sequential Rendah
+24SA31A001,MA'RUF AMRULLOH,Laki-laki,Teknologi Informasi,-1,3,1,-1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+24SA31A008,DUIKI ARBIYAN,Laki-laki,Teknologi Informasi,3,-3,-7,-3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A020,BAGUS SETIYA ROMADONI,Laki-laki,Teknologi Informasi,-3,-1,-7,-3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A053,Muhammad Haris Abdullah,Laki-laki,Teknologi Informasi,-3,-1,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A013,Fernando Reddy Setiawan,Laki-laki,Teknologi Informasi,-3,-1,-1,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA31A026,Prayogo Bagus Sudarmaji,Laki-laki,Teknologi Informasi,-1,1,-1,7,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Sedang
+24SA31A069,Qeisha Amalya Putri,Perempuan,Teknologi Informasi,-7,-3,-3,-3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA31A006,ATAINANUR HIFDIL BIRRI,Laki-laki,Teknologi Informasi,-1,3,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SA31A067,Muhammad Naufal Indrawan,Laki-laki,Teknologi Informasi,1,1,-3,-1,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA31A004,AFLAN MU'AFA DZULFIQAR,Laki-laki,Teknologi Informasi,-1,-1,-5,-3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A016,Antonius Setiawan,Laki-laki,Teknologi Informasi,-1,3,3,-3,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+24SA31A011,DWI SAFITRI,Perempuan,Teknologi Informasi,-1,5,-1,-3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+24SA31A018,Muhammad Zidan Dwi Pambudi,Laki-laki,Teknologi Informasi,-1,-1,-1,5,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+24SA31A031,Risqi Akbar Matsuka,Laki-laki,Teknologi Informasi,-1,5,1,-1,Reflektif Rendah,Sensing Sedang,Visual Rendah,Global Rendah
+24SA31A023,Ibnu Hafiz Asqolani,Laki-laki,Teknologi Informasi,3,-3,-5,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A022,Daffa Hafizh Fadhlulloh,Laki-laki,Teknologi Informasi,-1,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA31A033,Muhammad Rafli Valdrian,Laki-laki,Teknologi Informasi,-1,-3,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA31A010,Hadaya Imtiyaza Syarifa,Perempuan,Teknologi Informasi,-1,-3,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA31A005,Da'i Gustiantoro,Laki-laki,Teknologi Informasi,-3,1,-1,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA31A014,Vannianti Nabilla Putri,Perempuan,Teknologi Informasi,3,-1,-5,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A059,zain nur zaman,Laki-laki,Teknologi Informasi,-1,3,-3,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+24SA31A025,MUHAMMAD FATKHURUR ROKHMAN,Laki-laki,Teknologi Informasi,-7,-3,-5,1,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA31A024,Ilham Juliandi,Laki-laki,Teknologi Informasi,-1,1,-5,1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+24SA31A032,Zidan Azka Al Azkiya,Laki-laki,Teknologi Informasi,5,1,-3,1,Aktif Sedang,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SA31A009,ANGGUN MAULA KHUSNA,Laki-laki,Teknologi Informasi,-3,5,-5,-1,Reflektif Rendah,Sensing Sedang,Verbal Sedang,Global Rendah
+24SA31A007,Livia Febriati,Perempuan,Teknologi Informasi,-1,-1,-7,1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA31A021,fattan haydar ahmad,Laki-laki,Teknologi Informasi,-3,1,-3,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA31A035,Ahmad Dafanda Abdullah,Laki-laki,Teknologi Informasi,-5,-1,-1,7,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+24SA31A060,Muhammad Bagus Budiyanto,Laki-laki,Teknologi Informasi,-3,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA31A058,Najmal Falah,Laki-laki,Teknologi Informasi,-1,-3,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA31A056,Aufiatu Risqiyah Nurainun Qolbu,Perempuan,Teknologi Informasi,-1,-3,-1,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA31A055,DAVY IRSYAD TULLOH,Laki-laki,Teknologi Informasi,-3,-5,-5,-3,Reflektif Rendah,Intuitif Sedang,Verbal Sedang,Global Rendah
+24SA21A045,Faizurrohim Ramadhani,Laki-laki,Sistem Informasi,-1,-1,-7,5,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Sedang
+24SA21A044,Bathin Daffa Ramadhan,Laki-laki,Sistem Informasi,-5,-1,-1,7,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+24SA31A033,Muhammad Rafli Valdrian,Laki-laki,Teknologi Informasi,-1,1,-1,5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Sedang
+24SA31A058,NAJMAL FALAH,Laki-laki,Teknologi Informasi,-1,3,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA21A073,Abi Rizki Hidayat,Laki-laki,Sistem Informasi,-3,7,-1,1,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Sequential Rendah
+24SA31A035,Ahmad Dafanda Abdullah,Laki-laki,Teknologi Informasi,-3,3,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA11A160,Imam Muzakki,Laki-laki,Informatika,-5,-1,-5,-1,Reflektif Sedang,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA11A002,Akhdani Wafiq Ramadhan,Laki-laki,Informatika,-3,3,-5,-3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+24SA31A001,Ma'ruf Amrulloh,Laki-laki,Teknologi Informasi,1,-5,1,1,Aktif Rendah,Intuitif Sedang,Visual Rendah,Sequential Rendah
+24SA11A236,Amaria Nur Zamthu,Perempuan,Informatika,-1,-5,-5,-5,Reflektif Rendah,Intuitif Sedang,Verbal Sedang,Global Sedang
+24SA11A245,Devy Lusiana,Perempuan,Informatika,-1,-1,-5,3,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA11A271,Amanda Puji Rahayu,Perempuan,Informatika,-1,3,-1,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA11A272,Amelia lutfiani,Perempuan,Informatika,-1,-3,-7,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA11A250,lulu isfi azzakhro,Perempuan,Informatika,-3,-1,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA11A127,Hanif Adib Pratama,Laki-laki,Informatika,-3,5,1,3,Reflektif Rendah,Sensing Sedang,Visual Rendah,Sequential Rendah
+24SA21A088,Nova Berliyana,Perempuan,Sistem Informasi,1,1,-3,-5,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+24SA31A050,FAUZAN ZIKRIAN,Laki-laki,Teknologi Informasi,1,-3,-5,3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA31A053,Muhammad Haris Abdullah,Laki-laki,Teknologi Informasi,-3,-3,3,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+24SA21A090,RAHMATNUR RAMDANI,Laki-laki,Sistem Informasi,-5,-5,-3,5,Reflektif Sedang,Intuitif Sedang,Verbal Rendah,Sequential Sedang
+24SA21A104,Livia Agnes Adwitiya,Perempuan,Sistem Informasi,-5,-1,-3,1,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA11A270,Aisyah Nur Ramadhani,Perempuan,Informatika,-3,1,-5,5,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Sedang
+24SA21A086,Imarotul Khoeriyah,Perempuan,Sistem Informasi,-5,1,3,-3,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Rendah
+24SA21A092,TASYA APRILIA NURDIANA PUTRI,Perempuan,Sistem Informasi,-5,3,1,-1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Global Rendah
+24SA21A096,Zahra Mei Idiani,Perempuan,Sistem Informasi,1,-1,-7,5,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Sedang
+24SB11A038,William Jeferson Harianto,Laki-laki,Bisnis Digital,1,1,-3,-5,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+24SA21A095,Yusuf Hafizhin,Laki-laki,Sistem Informasi,-1,3,-5,3,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Sequential Rendah
+24SA11A115,Arya Mahendra,Laki-laki,Informatika,-3,1,-1,-3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24sa21a071,sofyan aziz a,Laki-laki,Sistem Informasi,-1,-3,3,-3,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+24SA21A088,Nova Berliyana,Perempuan,Sistem Informasi,-3,3,-1,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA21A088,Nova Berliyana,Perempuan,Sistem Informasi,3,5,-1,-3,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+24SA21A112,Hilda Herawati,Perempuan,Sistem Informasi,-3,-3,-5,-1,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SA21A272,Sabdo Bagus Andriyanto,Laki-laki,Sistem Informasi,1,-5,-1,-3,Aktif Rendah,Intuitif Sedang,Verbal Rendah,Global Rendah
+24SA21A059,Candrawati Kaca Nur Andhin,Perempuan,Sistem Informasi,-1,1,-3,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+24SB11A028,Hudzaifah Alhaq,Laki-laki,Bisnis Digital,-7,-7,-5,-9,Reflektif Sedang,Intuitif Sedang,Verbal Sedang,Global Kuat
+24SA21A069,ADITYA SAPUTRA DARMAWAN,Laki-laki,Sistem Informasi,1,1,-1,-3,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SB11A049,Achmad Sahlan Syahrul Maulid,Laki-laki,Bisnis Digital,1,-3,-1,-1,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA11A072,Handi Nurfauzan,Laki-laki,Informatika,-1,-3,-3,5,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Sedang
+24SA31A024,ILHAM JULIANDI,Laki-laki,Teknologi Informasi,-1,-1,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SB21A037,NAILA YU'THI MUFIDAH,Perempuan,Ilmu Komunikasi,-1,-3,-1,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SB21A071,Vonny Pramadhanti,Perempuan,Ilmu Komunikasi,-3,3,-1,-5,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Sedang
+24SA11A011,Wijaya Sandi,Laki-laki,Informatika,-3,-3,-5,-5,Reflektif Rendah,Intuitif Rendah,Verbal Sedang,Global Sedang
+24SA31A016,ANTONIUS SETIAWAN,Laki-laki,Teknologi Informasi,-1,3,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA31A031,Risqi Akbar Matsuka,Laki-laki,Teknologi Informasi,1,-1,-5,-1,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Global Rendah
+24SB11A035,Salma Nur Rodhiyyah,Perempuan,Bisnis Digital,-3,-1,-1,1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA31A018,Muhammad Zidan Dwi Pambudi,Laki-laki,Teknologi Informasi,-5,3,-3,-3,Reflektif Sedang,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA31A006,Atainanur Hifdil Birri,Laki-laki,Teknologi Informasi,-1,-3,1,-1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Rendah
+24SA31A004,AFLAN MU'AFA DZULFIQAR,Laki-laki,Teknologi Informasi,-3,1,-7,-1,Reflektif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+24SA31A009,ANGGUN MAULA KHUSNA,Laki-laki,Teknologi Informasi,-3,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA11A023,Ikhwan Nur Rizki Fathama,Laki-laki,Informatika,-1,1,-1,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SB11A042,Robbi Adi Saputro,Laki-laki,Bisnis Digital,1,5,-1,-3,Aktif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+24SA31A071,Joko sasongko,Laki-laki,Teknologi Informasi,-1,5,-1,-3,Reflektif Rendah,Sensing Sedang,Verbal Rendah,Global Rendah
+24SB11A017,Friska Amalia Putri,Perempuan,Bisnis Digital,-5,-1,-1,-3,Reflektif Sedang,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA21A019,AMELIA NUR AZIZAH,Perempuan,Sistem Informasi,-3,-3,1,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+24SA21A010,Vevinciya Dila Dita,Perempuan,Sistem Informasi,-1,-1,-3,-1,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA11A085,Pramudya Arif Udin,Laki-laki,Informatika,-1,3,-3,3,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SB11A007,Hafidz Ash Shafi Awwaluddin,Laki-laki,Bisnis Digital,1,1,-1,3,Aktif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SB11A062,FATIH AUFA MIRZA,Laki-laki,Bisnis Digital,-1,1,1,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA21A081,FELIZA PUSPADEWI,Perempuan,Sistem Informasi,1,-3,-1,-1,Aktif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA21A017,Rendra Ditya Hutama,Laki-laki,Sistem Informasi,-1,1,3,1,Reflektif Rendah,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA21A006,Jovan Budi Sagita,Laki-laki,Sistem Informasi,-1,1,-1,-1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA21A018,Syaima Farah Falikhah,Perempuan,Sistem Informasi,-1,3,-3,1,Reflektif Rendah,Sensing Rendah,Verbal Rendah,Sequential Rendah
+24SB11A032,Muhammad Az Zakii,Laki-laki,Bisnis Digital,-3,3,1,-3,Reflektif Rendah,Sensing Rendah,Visual Rendah,Global Rendah
+24SB11A006,Sabrina Nur Aulya,Perempuan,Bisnis Digital,-5,3,3,1,Reflektif Sedang,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SB21A035,Adinda Rizkya Putri Wibawa,Perempuan,Ilmu Komunikasi,-1,-1,3,-5,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Global Sedang
+24SB21A072,Fani Ermawati,Perempuan,Ilmu Komunikasi,-11,1,3,1,Reflektif Kuat,Sensing Rendah,Visual Rendah,Sequential Rendah
+24SA11A033,Sofyan Khoiron Mukhlis,Laki-laki,Informatika,1,1,-1,-3,Aktif Rendah,Sensing Rendah,Verbal Rendah,Global Rendah
+24SA31A058,Najmal Falah,Laki-laki,Teknologi Informasi,-1,-3,3,1,Reflektif Rendah,Intuitif Rendah,Visual Rendah,Sequential Rendah
+24SB11A006,Sabrina Nur Aulya,Perempuan,Bisnis Digital,-3,5,3,-1,Reflektif Rendah,Sensing Sedang,Visual Rendah,Global Rendah
+24SA11A013,Ida feriani Nurya,Perempuan,Informatika,-3,-3,-3,3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Sequential Rendah
+24SA31A005,Da’i Gustiantoro,Laki-laki,Teknologi Informasi,1,1,-5,-1,Aktif Rendah,Sensing Rendah,Verbal Sedang,Global Rendah
+24SA11A079,Muhammad Zufar Fakhriansyah,Laki-laki,Informatika,-3,-1,-3,-3,Reflektif Rendah,Intuitif Rendah,Verbal Rendah,Global Rendah
+24SA11A021,Nalendra Alamsyah Sutomo,Laki-laki,Informatika,1,-3,-5,3,Aktif Rendah,Intuitif Rendah,Verbal Sedang,Sequential Rendah
+24SA11A043,Yuliana,Perempuan,Informatika,-5,5,-5,3,Reflektif Sedang,Sensing Sedang,Verbal Sedang,Sequential Rendah
