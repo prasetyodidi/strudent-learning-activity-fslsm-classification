@@ -1,182 +1,76 @@
 @startuml
-title Pipeline Pembuatan Model Klasifikasi Gaya Belajar Multi-Label
+title Pipeline Klasifikasi Gaya Belajar Multi-Label
 
 start
 
-:Tahap 1: Data Preparation & EDA;
+:Data Preparation & EDA;
+note right
+- Load 2 datasets (CSV)
+- Merge by NIM/NPM
+- Multi-label encoding (4 kelas)
+- Extract time features (3 fitur)
+end note
 
-partition "Data Sources" {
-    :Load dfjadi-simplified.csv;
-    :Load mhs_grouping_by_material_type.csv;
-}
+:Missing Value Imputation;
+note right
+Evaluasi 3 strategi:
+- Zero Imputation
+- **Mean Imputation** ✓
+- Median Imputation
+end note
 
-partition "Data Integration" {
-    :Load datasets;
-    :Merge berdasarkan NIM/NPM;
-    note right: Inner join untuk matching data
-}
+:Class Imbalance Handling;
+note right
+Evaluasi 3 teknik:
+- MLSMOTE
+- **Random Oversampling** ✓
+- ADASYN
+end note
 
-partition "Label Processing" {
-    :Simplifikasi gaya belajar;
-    note right: Reflektif/Aktif + Visual/Verbal
-    
-    :Multi-label encoding;
-    note right: MultiLabelBinarizer() untuk 4 kelas
-}
+:Model Training & Selection;
+note right
+Cross-validation:
+- Stratified K-Fold (10-fold, 3 repeats)
+- Nested CV
+- Monte Carlo CV (100 iter)
 
-partition "Feature Engineering" {
-    :Ekstrak fitur waktu;
-    note right
-        time_materials_video,
-        time_materials_document,
-        time_materials_article
-    end note
-    
-    :Validasi struktur dataset;
-    note right: 4 kelas learning style
-}
+Algoritma tested:
+- **Random Forest** ✓
+- XGBoost
+- SVM
 
-:Tahap 2: Missing Value Imputation;
+Metrics: F1-Macro, Precision,
+Recall, Hamming Loss
+end note
 
-partition "Imputation Strategies" {
-    :Pilih Strategi Imputation;
-    if (Strategi?) then (zero)
-        :Zero Imputation;
-        note right: Missing values = 0 (no engagement)
-    elseif (mean)
-        :Mean Imputation;
-        note right: Missing values = column mean
-    else (median)
-        :Median Imputation;
-        note right: Missing values = column median
-    endif
-}
+:Model Evaluation;
+note right
+- Statistical tests
+- Performance comparison
+- Stability analysis
+end note
 
-partition "Strategy Comparison" {
-    :Evaluasi 3 strategi;
-    :Pilih strategi terbaik;
-    note right: Mean imputation terpilih
-}
+:Deployment;
+note right
+Pipeline:
+1. StandardScaler()
+2. MultiOutputClassifier(RF)
+3. Post-processing
 
-:Tahap 3: Class Imbalance Handling;
-
-partition "Oversampling Techniques" {
-    :Pilih Teknik Oversampling;
-    if (Teknik?) then (MLSMOTE)
-        :MLSMOTE;
-        note right
-            Synthetic minority over-sampling
-            Charte et al. (2019)
-        end note
-    elseif (Random)
-        :Random Oversampling;
-        note right
-            Simple replication
-            Branco et al. (2016)
-        end note
-    else (ADASYN)
-        :ADASYN;
-        note right
-            Adaptive synthetic sampling
-            He et al. (2020)
-        end note
-    endif
-}
-
-partition "Oversampling Evaluation" {
-    :Cross-validation 10-fold;
-    :Evaluasi metrics;
-    note right: F1-Macro, Precision, Recall, Hamming Loss
-    
-    :Pilih teknik terbaik;
-    note right: Random Oversampling terpilih
-}
-
-:Tahap 4: Model Training & Evaluation;
-
-partition "Algorithm Selection" {
-    :Pilih Algoritma;
-    if (Algoritma?) then (Random Forest)
-        :Random Forest;
-        note right
-            Ensemble method
-            Zhang & Zhou (2024)
-        end note
-    elseif (XGBoost)
-        :XGBoost;
-        note right
-            Gradient boosting
-            Chen et al. (2023)
-        end note
-    else (SVM)
-        :SVM;
-        note right
-            Linear kernel
-            Rodriguez & Kumar (2023)
-        end note
-    endif
-}
-
-partition "Cross-Validation Framework" {
-    :Stratified K-Fold CV;
-    note right: 10-fold, 3 repeats
-    
-    :Nested CV;
-    note right: Hyperparameter optimization
-    
-    :Monte Carlo CV;
-    note right: 100 iterations, 80/20 split
-}
-
-partition "Model Evaluation" {
-    :Statistical Analysis;
-    note right: Paired t-tests, ANOVA, Effect sizes
-    
-    :Performance Comparison;
-    note right: F1-Macro sebagai metric utama
-    
-    :Stability Analysis;
-    note right: Coefficient of variation
-}
-
-partition "Final Model Selection" {
-    :Pilih model terbaik;
-    note right: Random Forest terpilih
-    
-    :Save model components;
-    note right: Model, Scaler, Encoder, Metadata
-}
-
-:Tahap 5: Deployment;
-
-partition "Production Pipeline" {
-    :Feature Scaling;
-    note right: StandardScaler()
-    
-    :Multi-label Classification;
-    note right: MultiOutputClassifier(RandomForest)
-    
-    :Post-processing;
-    note right: Convert to label format
-}
-
-partition "Monitoring" {
-    :Track F1-Macro performance;
-    :Monitor label distribution drift;
-    :Validate prediction confidence;
-    :Regular model retraining;
-}
+Monitoring:
+- F1-Macro performance
+- Label distribution drift
+- Prediction confidence
+end note
 
 stop
 
-floating note right
-    **Hasil Akhir:**
-    • Model: Random Forest
-    • F1-Macro: 0.68-0.72
-    • Dataset: Mean imputation + Random Oversampling
-    • Features: 3 time-based features
-    • Labels: 4 learning style classes
-    • Status: Production Ready
+note right
+**Hasil:**
+Model: Random Forest
+F1-Macro: 0.68-0.72
+Features: 3 time-based
+Labels: 4 learning styles
 end note
 
 @enduml
