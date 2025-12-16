@@ -25,20 +25,26 @@ This project implements and compares various multi-label classification algorith
 ### Current Dataset (After EDA)
 - **Source**: `outputs/data/processed/cleaned_learning_styles_dataset_*.csv`
 - **Samples**: **123 students** (complete data)
-- **Features**: 6 numerical time-based features
+- **Features**: 6 numerical time-based features (3 used in final model)
 - **Labels**: 4 learning style classes (multi-label classification)
 - **Class Imbalance**: Severe imbalance (17.5:1 ratio)
 - **Imputation Strategies**: 4 datasets created (Zero, Mean, Median, MICE)
 
 #### Feature Description
+
+**Features Used in Model Training (3):**
 | Feature | Description | Type | Data Availability |
 |---------|-------------|------|-------------------|
 | `time_materials_video` | Time spent on video materials | Numeric (seconds) | ~24 non-zero values |
 | `time_materials_document` | Time spent on document materials | Numeric (seconds) | ~61 non-zero values |
 | `time_materials_article` | Time spent on article materials | Numeric (seconds) | ~4 non-zero values |
-| `time_tasks` | Time spent on tasks | Numeric (seconds) | ~3 non-zero values |
-| `time_forums` | Time spent on forums | Numeric (seconds) | ~4 non-zero values |
-| `time_quizzes` | Time spent on quizzes | Numeric (seconds) | All zeros |
+
+**Features NOT Used in Model Training (3):**
+| Feature | Description | Reason Not Used |
+|---------|-------------|------------------|
+| `time_tasks` | Time spent on tasks | Very sparse (~3 non-zero) |
+| `time_forums` | Time spent on forums | Very sparse (~4 non-zero) |
+| `time_quizzes` | Time spent on quizzes | All zeros (no data) |
 
 #### Label Classes (Felder-Silverman Learning Style Model)
 - **Aktif**: Active learning style (learning by doing)
