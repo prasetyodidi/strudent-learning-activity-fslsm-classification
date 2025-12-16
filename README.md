@@ -39,11 +39,11 @@ This project implements and compares various multi-label classification algorith
 | `time_materials_document` | Time spent on document materials | Numeric (seconds) | ~61 non-zero values |
 | `time_materials_article` | Time spent on article materials | Numeric (seconds) | ~4 non-zero values |
 
-**Features NOT Used in Model Training (3):**
-| Feature | Description | Reason Not Used |
-|---------|-------------|------------------|
-| `time_tasks` | Time spent on tasks | Very sparse (~3 non-zero) |
-| `time_forums` | Time spent on forums | Very sparse (~4 non-zero) |
+**Features Excluded from Model (3):**
+| Feature | Description | Reason Excluded |
+|---------|-------------|----------------|
+| `time_tasks` | Time spent on tasks | Very sparse data (~3 non-zero) |
+| `time_forums` | Time spent on forums | Very sparse data (~4 non-zero) |
 | `time_quizzes` | Time spent on quizzes | All zeros (no data) |
 
 #### Label Classes (Felder-Silverman Learning Style Model)
