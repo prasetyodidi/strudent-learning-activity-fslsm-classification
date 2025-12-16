@@ -133,8 +133,8 @@ Implemented Random Oversampling for multi-label classification across all 4 impu
 
 ### 🏆 Best Model: XGBoost
 - **Algorithm**: XGBoost (Extreme Gradient Boosting)
-- **Performance**: **0.7006 F1-Macro**
-- **Validation**: Outperformed Random Forest and SVM in comprehensive benchmarks.
+- **Performance**: **0.7008 F1-Macro** (10-Fold Stratified CV)
+- **Validation**: Nested Cross-Validation (10-fold outer, 5-fold inner)
 
 ### 📊 Best Imputation Strategy: Median
 Based on Random Forest comparisons across all strategies:
@@ -143,16 +143,46 @@ Based on Random Forest comparisons across all strategies:
 3.  Zero: 0.6413 ± 0.0686
 4.  MICE: 0.6044 ± 0.0721
 
-**Insight**: Median imputation proved most effective, likely by preserving the central tendency of student engagement times while being robust to outliers (extreme study times).
+**Insight**: Median imputation proved most effective, likely by preserving the central tendency of student engagement times while being robust to outliers.
 
-### Algorithm Performance Summary
-| Algorithm | Best F1-Macro | Status |
-|-----------|---------------|--------|
-| **XGBoost** | **0.7006** | ✅ **BEST** |
-| Random Forest | 0.6884 | ✅ Strong |
-| SVM | 0.4311 | ⚠️ Baseline |
+### Algorithm Performance Summary (5 Algorithms Compared)
 
-*Note: Results based on Stratified K-Fold Cross-Validation on the optimal dataset.*
+| Rank | Algorithm | F1-Macro | F1-Micro | Subset Accuracy | Status |
+|------|-----------|----------|----------|-----------------|--------|
+| 🥇 | **XGBoost** | **0.7008** | 0.7565 | 0.5609 | ✅ **BEST** |
+| 🥈 | Self-Training | 0.6922 | 0.7500 | 0.5478 | ✅ Strong |
+| 🥉 | Random Forest | 0.6884 | 0.7457 | 0.5391 | ✅ Strong |
+| 4 | RBF Network | 0.4359 | 0.6304 | 0.3130 | ⚠️ Baseline |
+| 5 | SVM | 0.4357 | 0.6304 | 0.3130 | ⚠️ Baseline |
+
+### Voting Ensemble Experiment
+
+Tested ensemble methods combining top 3 models (XGBoost, Random Forest, Self-Training):
+
+| Method | F1-Macro | vs XGBoost |
+|--------|----------|------------|
+| XGBoost (Single) | **0.7008** | - |
+| Simple Voting | 0.6952 | -0.80% |
+| Weighted Voting (XGBoost×2) | 0.6970 | -0.54% |
+
+**Conclusion**: Single XGBoost outperforms ensemble methods for this dataset.
+
+### Hyperparameter Tuning Applied
+
+All 5 algorithms were tuned using **Nested Cross-Validation**:
+- **Outer loop**: 10-fold (performance estimation)
+- **Inner loop**: 5-fold (hyperparameter selection)
+
+| Algorithm | Parameters Tuned |
+|-----------|------------------|
+| Random Forest | n_estimators, max_depth, min_samples_leaf |
+| XGBoost | n_estimators, max_depth, learning_rate, gamma |
+| SVM | C, kernel, gamma |
+| RBF Network | n_centers, spread_factor |
+| Self-Training | threshold |
+
+*Note: Results based on Stratified K-Fold Cross-Validation on the optimal dataset (Median imputation, 230 samples).*
+
 
 ## 📁 Project Structure
 
@@ -168,10 +198,12 @@ Based on Random Forest comparisons across all strategies:
 ├── Skripsi_Playground.ipynb     # Initial exploration
 ├── EDA_Analysis.ipynb           # Data cleaning & Imputation
 ├── multi-label-oversampling-techniques-comparison.ipynb # Oversampling
-├── multi-label-classification-research-review-prod.ipynb # Main Training & Evaluation
+├── multi-label-classification-research-review-prod.ipynb # Original Training (72 cells)
+├── learning_style_classification_v2.ipynb # Simplified Training (31 cells) ⭐ NEW
 ├── README.md                    # This documentation
 └── requirements.txt             # Dependencies
 ```
+
 
 ## 🛠️ Installation & Usage
 
