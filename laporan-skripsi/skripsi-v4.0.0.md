@@ -179,40 +179,30 @@ Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Elect
 Menggunakan algoritma XGBoost dengan MultiOutputClassifier
 
 #### b. Hyperparameter Tuning
-Nested Cross-Validation untuk semua 5 algoritma:
-
-| Algoritma | Parameter | Rentang Nilai (Grid Search) |
-|-----------|-----------|-----------------------------|
-| **Random Forest** | `n_estimators` | 150 |
-| | `max_depth` | 10, 20, None |
-| | `min_samples_leaf` | 2, 5 |
-| | `max_features` | 'sqrt' |
-| **XGBoost** | `n_estimators` | 150 |
-| | `max_depth` | 3, 6, 9 |
-| | `learning_rate` | 0.05, 0.1 |
-| | `gamma` | 0, 0.1 |
-| | `subsample` | 0.8 |
-| **SVM** | `C` | 0.1, 1, 10 |
-| | `kernel` | 'rbf' |
-| | `gamma` | 'scale', 0.1 |
-| **RBF Network** | `n_hidden` | 10, 15, 20, 25, 30 |
-| | `spread_factor` | 0.8, 1.0, 1.2, 1.5, 1.8, 2.0 |
-| | `strategy` | 'binary_relevance' |
-| **Self-Training** | `confidence_threshold` | 0.55, 0.6, 0.65, 0.7, 0.75 |
-| | `max_iterations` | 8, 10, 12, 15, 20 |
-| | `batch_size` | 1, 2, 3, 4 |
+Algiritma XGBoost menggunakan hyperparameter tuning dengan detail parameter sebagai berikut:
+| Parameter | Rentang Nilai (Grid Search) |
+|-----------|-----------------------------|
+| `n_estimators` | 150 |
+| `max_depth` | 3, 6, 9 |
+| `learning_rate` | 0.05, 0.1 |
+| `gamma` | 0, 0.1 |
+| `subsample` | 0.8 |
 
 ### 4. Evaluasi Model
 
 #### a. Cross-Validation
-- D
+Evaluasi dilakukan menggunakan teknik **Nested Cross-Validation** dengan skema:
+- **Outer Loop (10-Fold):** Membagi data menjadi 10 bagian untuk evaluasi performa model yang tidak bias (unbiased evaluation).
+- **Inner Loop (5-Fold):** Dilakukan pada setiap fold outer untuk mencari kombinasi hyperparameter terbaik (grid search).
+Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar terpisah dari proses tuning parameter.
+
 #### b. Metrik Evaluasi
 | Metrik | Deskripsi |
 |--------|-----------|
 | **F1-Macro** | Rata-rata F1 per label (metrik utama) |
 | **F1-Micro** | F1 global berdasarkan total TP/FP/FN |
 | **Hamming Loss** | Fraksi label salah diprediksi |
-| **Subset Accuracy** | Ke |
+| **Subset Accuracy** | Prediksi tepat semua label |
 
 ---
 
