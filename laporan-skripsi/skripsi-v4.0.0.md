@@ -159,7 +159,7 @@ Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Elect
 ### 1. Preprocessing Data
 
 #### a. Strategi Imputasi Missing Value
-- Zero, Mean, Median, MICE (4 dataset dibuat)
+- Median
 
 #### b. Label Encoding
 - MultiLabelBinarizer untuk format binary matrix
@@ -176,26 +176,31 @@ Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Elect
 ### 3. Pemodelan Machine Learning
 
 #### a. Lima Algoritma
-1. XGBoost dengan MultiOutputClassifier
-2. Random Forest dengan MultiOutputClassifier
-3. SVM dengan MultiOutputClassifier
-4. RBF Network (custom sklearn-compatible)
-5. Self-Training (custom multi-label wrapper)
+Menggunakan algoritma XGBoost dengan MultiOutputClassifier
 
-#### b. Voting Ensemble
-- Simple Voting (3 model teratas)
-- Weighted Voting (XGBoost×2, RF×1, Self-Training×1)
-
-#### c. Hyperparameter Tuning
+#### b. Hyperparameter Tuning
 Nested Cross-Validation untuk semua 5 algoritma:
 
-| Algoritma | Parameters Tuned |
-|-----------|------------------|
-| Random Forest | n_estimators, max_depth, min_samples_leaf |
-| XGBoost | n_estimators, max_depth, learning_rate, gamma |
-| SVM | C, kernel, gamma |
-| RBF Network | n_centers, spread_factor |
-| Self-Training |  |
+| Algoritma | Parameter | Rentang Nilai (Grid Search) |
+|-----------|-----------|-----------------------------|
+| **Random Forest** | `n_estimators` | 150 |
+| | `max_depth` | 10, 20, None |
+| | `min_samples_leaf` | 2, 5 |
+| | `max_features` | 'sqrt' |
+| **XGBoost** | `n_estimators` | 150 |
+| | `max_depth` | 3, 6, 9 |
+| | `learning_rate` | 0.05, 0.1 |
+| | `gamma` | 0, 0.1 |
+| | `subsample` | 0.8 |
+| **SVM** | `C` | 0.1, 1, 10 |
+| | `kernel` | 'rbf' |
+| | `gamma` | 'scale', 0.1 |
+| **RBF Network** | `n_hidden` | 10, 15, 20, 25, 30 |
+| | `spread_factor` | 0.8, 1.0, 1.2, 1.5, 1.8, 2.0 |
+| | `strategy` | 'binary_relevance' |
+| **Self-Training** | `confidence_threshold` | 0.55, 0.6, 0.65, 0.7, 0.75 |
+| | `max_iterations` | 8, 10, 12, 15, 20 |
+| | `batch_size` | 1, 2, 3, 4 |
 
 ### 4. Evaluasi Model
 
