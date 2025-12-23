@@ -1,11 +1,10 @@
----
 title: "Proposal Skripsi - Prediksi Gaya Belajar FSLSM dengan Multi-Label Classification"
-version: "3.0.0"
-date: "2025-12-16"
+version: "4.0.0"
+date: "2025-12-24"
 author: "Didi Prasetyo"
 status: "Draft"
-previous_version: "skripsi-v2.0.0.md"
-changelog: "skripsi-v3.0.0-changelog.md"
+previous_version: "skripsi-v3.0.0.md"
+changelog: "skripsi-v4.0.0-changelog.md"
 ---
 
 # BAB I PENDAHULUAN
@@ -35,7 +34,8 @@ Penelitian ini membandingkan **lima algoritma** klasifikasi: XGBoost, Random For
 2. Model machine learning yang digunakan: XGBoost, Random Forest, SVM, RBF Network, dan Self-Training.
 3. Gaya belajar mengacu pada dua dimensi utama FSLSM: Processing (Aktif/Reflektif) dan Input (Visual/Verbal).
 4. Pendekatan klasifikasi menggunakan multi-label classification dengan MultiOutputClassifier.
-5. Hyperparameter tuning menggunakan Nested Cross-Validation (10-fold outer, 5-fold inner).
+4. Pendekatan klasifikasi menggunakan multi-label classification dengan MultiOutputClassifier.
+5. Hyperparameter tuning menggunakan Nested Cross-Validation untuk validasi model.
 
 ## D. Tujuan Penelitian
 
@@ -155,17 +155,18 @@ Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Elect
 | Label | 4 (Aktif, Reflektif, Visual, Verbal) |
 
 ## D. Konsep Penelitian
+![Konsep Penelitian](chart/konsep-penelitian.png)
 
 ### 1. Preprocessing Data
 
 #### a. Strategi Imputasi Missing Value
-- Median
+Digunakan metode **Median Imputation** untuk mengisi nilai yang hilang pada data log aktivitas. Median dipilih karena lebih tahan (*robust*) terhadap outlier dibandingkan nilai rata-rata (mean), sehingga tidak mendistorsi distribusi data aktivitas mahasiswa yang seringkali memiliki variasi ekstrim.
 
 #### b. Label Encoding
-- MultiLabelBinarizer untuk format binary matrix
+Transformasi label kategori gaya belajar menjadi format numerik menggunakan **MultiLabelBinarizer**. Teknik ini mengubah setiap label (misal: "Visual", "Aktif") menjadi representasi biner [0, 1] dalam bentuk matriks, memungkinkan satu mahasiswa memiliki lebih dari satu label gaya belajar sekaligus.
 
 #### c. Normalisasi
-- StandardScaler untuk fitur numerik
+Fitur numerik (durasi waktu akses) dinormalisasi menggunakan **StandardScaler**. Proses ini mengubah skala data sehingga memiliki rata-rata 0 dan standar deviasi 1, memastikan bahwa fitur dengan rentang nilai besar tidak mendominasi proses pembelajaran model, terutama untuk algoritma yang sensitif terhadap skala seperti SVM dan RBF Network.
 
 ### 2. Penanganan Class Imbalance
 
@@ -175,17 +176,18 @@ Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Elect
 
 ### 3. Pemodelan Machine Learning
 
-#### a. Lima Algoritma
-Menggunakan algoritma XGBoost dengan MultiOutputClassifier
+#### a. Algoritma Klasifikasi
+Penelitian ini menggunakan algoritma **XGBoost (Extreme Gradient Boosting)** sebagai model utama untuk prediksi gaya belajar. XGBoost dipilih karena kemampuannya yang superior dalam menangani data tabular, ketahanan terhadap overfitting melalui mekanisme regularisasi, dan efisiensi komputasi yang tinggi.
 
-#### b. Hyperparameter Tuning
-Algiritma XGBoost menggunakan hyperparameter tuning dengan detail parameter sebagai berikut:
-| Parameter | Rentang Nilai (Grid Search) |
-|-----------|-----------------------------|
+#### b. Konfigurasi Hyperparameter
+Model XGBoost dikonfigurasi dengan parameter optimal berikut untuk memaksimalkan performa prediksi:
+
+| Parameter | Nilai Optimal |
+|-----------|---------------|
 | `n_estimators` | 150 |
-| `max_depth` | 3, 6, 9 |
-| `learning_rate` | 0.05, 0.1 |
-| `gamma` | 0, 0.1 |
+| `max_depth` | 6 |
+| `learning_rate` | 0.1 |
+| `gamma` | 0 |
 | `subsample` | 0.8 |
 
 ### 4. Evaluasi Model
@@ -214,10 +216,10 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 
 | Strategi | F1-Macro | Std | Ranking |
 |----------|----------|-----|---------|
-| **Median** | **0.6884** | ±0.0834 | **1** |
-| Mean | 0.6679 | ±0.0628 | 2 |
-| Zero | 0.6413 | ±0.0686 | 3 |
-| MICE | 0.6044 | ±0.0721 | 4 |
+| **Median** | **0.7083** | ±0.0814 | **1** |
+| Mean | 0.6976 | ±0.0572 | 2 |
+| Zero | 0.6708 | ±0.0812 | 3 |
+| MICE | 0.6216 | ±0.0619 | 4 |
 
 **Temuan:** Median Imputation terbaik karena robust terhadap outlier.
 
@@ -225,9 +227,9 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 
 | Rank | Algoritma | F1-Macro | F1-Micro | Subset Accuracy |
 |------|-----------|----------|----------|-----------------|
-| 🥇 | **XGBoost** | **0.7008** | 0.7565 | 0.5609 |
-| 🥈 | Self-Training | 0.6922 | 0.7500 | 0.5478 |
-| 🥉 | Random Forest | 0.6884 | 0.7457 | 0.5391 |
+| 1 | **XGBoost** | **0.7008** | 0.7565 | 0.5609 |
+| 2 | Self-Training | 0.6922 | 0.7500 | 0.5478 |
+| 3 | Random Forest | 0.6884 | 0.7457 | 0.5391 |
 | 4 | RBF Network | 0.4359 | 0.6304 | 0.3130 |
 | 5 | SVM | 0.4357 | 0.6304 | 0.3130 |
 
