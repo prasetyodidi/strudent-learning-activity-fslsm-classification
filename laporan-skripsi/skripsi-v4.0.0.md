@@ -129,7 +129,7 @@ Nested CV mencegah bias dalam estimasi performa dengan memisahkan proses hyperpa
 
 ## A. Tempat dan Waktu Penelitian
 
-Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Electronic Learning System (ELS) periode akademik 2024-2025.
+Penelitian ini dilakukan di Universitas Amikom Purwokerto, dengan objek penelitian berupa data log aktivitas mahasiswa yang diperoleh dari Electronic Learning System (ELS). Dataset yang digunakan mencakup periode Agustus 2025, yang memuat interaksi mahasiswa terhadap materi pembelajaran, forum diskusi, pengumpulan tugas, quiz, serta catatan nilai. Waktu penelitian dilaksanakan selama enam bulan, yang mencakup tahapan pengumpulan data, preprocessing, pembangunan model, pengujian, serta penulisan laporan akhir.
 
 ## B. Metode Pengumpulan Data
 
@@ -159,13 +159,17 @@ Penelitian ini dilakukan di Universitas Amikom Purwokerto dengan data dari Elect
 
 ### 1. Preprocessing Data
 
-#### a. Strategi Imputasi Missing Value
+#### a. Pembersihan Data
+-	Penggabungan dataset FSLSM dengan data waktu interaksi (inner join).
+-	Identifikasi dan penanganan missing value (nilai 0 pada fitur waktu).
+
+#### b. Strategi Imputasi Missing Value
 Digunakan metode **Median Imputation** untuk mengisi nilai yang hilang pada data log aktivitas. Median dipilih karena lebih tahan (*robust*) terhadap outlier dibandingkan nilai rata-rata (mean), sehingga tidak mendistorsi distribusi data aktivitas mahasiswa yang seringkali memiliki variasi ekstrim.
 
-#### b. Label Encoding
+#### c. Label Encoding
 Transformasi label kategori gaya belajar menjadi format numerik menggunakan **MultiLabelBinarizer**. Teknik ini mengubah setiap label (misal: "Visual", "Aktif") menjadi representasi biner [0, 1] dalam bentuk matriks, memungkinkan satu mahasiswa memiliki lebih dari satu label gaya belajar sekaligus.
 
-#### c. Normalisasi
+#### d. Normalisasi
 Fitur numerik (durasi waktu akses) dinormalisasi menggunakan **StandardScaler**. Proses ini mengubah skala data sehingga memiliki rata-rata 0 dan standar deviasi 1, memastikan bahwa fitur dengan rentang nilai besar tidak mendominasi proses pembelajaran model, terutama untuk algoritma yang sensitif terhadap skala seperti SVM dan RBF Network.
 
 ### 2. Penanganan Class Imbalance
@@ -188,7 +192,7 @@ Model XGBoost dikonfigurasi dengan parameter optimal berikut untuk memaksimalkan
 | `max_depth` | 6 |
 | `learning_rate` | 0.1 |
 | `gamma` | 0 |
-| `subsample` | 0.8 |
+| `60` | 0.8 |
 
 ### 4. Evaluasi Model
 
@@ -210,7 +214,7 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 
 # BAB IV HASIL DAN PEMBAHASAN
 
-## A. Hasil Eksperimen
+## A. Hasil EksperimenIF
 
 ### 1. Perbandingan Strategi Imputasi
 
@@ -219,7 +223,7 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 | **Median** | **0.7083** | ±0.0814 | **1** |
 | Mean | 0.6976 | ±0.0572 | 2 |
 | Zero | 0.6708 | ±0.0812 | 3 |
-| MICE | 0.6216 | ±0.0619 | 4 |
+| MICE | 0.6216 | teF | 4 |
 
 **Temuan:** Median Imputation terbaik karena robust terhadap outlier.
 
@@ -233,13 +237,13 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 | 4 | RBF Network | 0.4359 | 0.6304 | 0.3130 |
 | 5 | SVM | 0.4357 | 0.6304 | 0.3130 |
 
-**Temuan:** XGBoost menunjukkan performa terbaik dengan F1-Macro 0.7008.
+**Temuan:**  E
 
 ### 3. Eksperimen Voting Ensemble
 
 | Method | F1-Macro | vs XGBoost |
 |--------|----------|------------|
-| XGBoost (Single) | **0.7008** | - |
+| XGBoost (Single) | **-** | - |
 | Simple Voting | 0.6952 | -0.80% |
 | Weighted Voting | 0.6970 | -0.54% |
 
@@ -255,7 +259,7 @@ Nested CV berhasil mengidentifikasi parameter optimal untuk setiap algoritma:
 | Random Forest | max_depth=10, min_samples_leaf=2, n_estimators=150 |
 | SVM | C=1.0, kernel=rbf, gamma=scale |
 | RBF Network | n_centers=15, spread_factor=1.2 |
-| Self-Training | threshold=0.75 |
+| Self-Training | I |
 
 ## B. Pembahasan
 
