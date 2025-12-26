@@ -19,21 +19,19 @@ Penelitian sebelumnya telah mengkombinasikan FSLSM dengan berbagai algoritma mac
 
 Dalam konteks Universitas Amikom Purwokerto, data log aktivitas mahasiswa pada Electronic Learning System (ELS) menjadi sumber yang sangat potensial untuk dianalisis. Pola waktu akses materi video, dokumen, artikel, forum diskusi, hingga penyelesaian tugas dapat memberikan gambaran yang kaya mengenai gaya belajar mahasiswa. Oleh karena itu, diperlukan pendekatan **multi-label classification** yang mampu memprediksi kombinasi gaya belajar secara simultan.
 
-Penelitian ini membandingkan **lima algoritma** klasifikasi: XGBoost, Random Forest, SVM, RBF Network, dan Self-Training. Selain itu, juga dilakukan eksperimen **Voting Ensemble** untuk menggabungkan prediksi dari model-model terbaik. Dengan mengkombinasikan teknik penanganan missing value (imputasi), oversampling untuk mengatasi class imbalance, serta **Nested Cross-Validation** untuk hyperparameter tuning yang unbiased, penelitian ini berupaya membangun model prediksi gaya belajar mahasiswa yang optimal.
+Penelitian ini membandingkan **lima algoritma** klasifikasi: XGBoost, Random Forest, SVM, RBF Network, dan Self-Training. Dengan mengkombinasikan teknik penanganan missing value (imputasi), oversampling untuk mengatasi class imbalance, serta **Nested Cross-Validation** untuk hyperparameter tuning yang unbiased, penelitian ini berupaya membangun model prediksi gaya belajar mahasiswa yang optimal.
 
 ## B. Rumusan Masalah
 
 1. Bagaimana memetakan aktivitas mahasiswa dalam ELS ke dimensi FSLSM menggunakan pendekatan multi-label classification?
 2. Bagaimana pengaruh strategi imputasi missing value (Zero, Mean, Median, MICE) terhadap performa model prediksi gaya belajar?
 3. Bagaimana performa lima algoritma (XGBoost, Random Forest, SVM, RBF Network, Self-Training) dalam tugas multi-label classification?
-4. Apakah Voting Ensemble dapat meningkatkan performa dibandingkan model tunggal terbaik?
 
 ## C. Batasan Masalah
 
 1. Dataset terfokus pada ELS Amikom Purwokerto dengan data waktu interaksi mahasiswa terhadap berbagai jenis materi pembelajaran.
 2. Model machine learning yang digunakan: XGBoost, Random Forest, SVM, RBF Network, dan Self-Training.
 3. Gaya belajar mengacu pada dua dimensi utama FSLSM: Processing (Aktif/Reflektif) dan Input (Visual/Verbal).
-4. Pendekatan klasifikasi menggunakan multi-label classification dengan MultiOutputClassifier.
 4. Pendekatan klasifikasi menggunakan multi-label classification dengan MultiOutputClassifier.
 5. Hyperparameter tuning menggunakan Nested Cross-Validation untuk validasi model.
 
@@ -42,12 +40,11 @@ Penelitian ini membandingkan **lima algoritma** klasifikasi: XGBoost, Random For
 1. Menerapkan FSLSM dalam analisis gaya belajar berbasis data ELS dengan pendekatan multi-label.
 2. Membandingkan efektivitas empat strategi imputasi missing value terhadap performa model.
 3. Mengembangkan dan membandingkan lima algoritma prediksi gaya belajar.
-4. Mengevaluasi efektivitas Voting Ensemble dibandingkan model tunggal.
-5. Mengevaluasi model dengan metrik standar multi-label classification (F1-Macro, Hamming Loss, Subset Accuracy).
+4. Mengevaluasi model dengan metrik standar multi-label classification (F1-Macro, Hamming Loss, Subset Accuracy).
 
 ## E. Manfaat Penelitian
 
-1. **Teoritis:** Kontribusi pada penelitian Learning Analytics berbasis multi-label classification dengan perbandingan komprehensif lima algoritma dan teknik ensemble.
+1. **Teoritis:** Kontribusi pada penelitian Learning Analytics berbasis multi-label classification dengan perbandingan komprehensif lima algoritma.
 2. **Praktis:** Mendukung personalisasi pembelajaran di Amikom Purwokerto dengan menyediakan model prediksi gaya belajar yang dapat diintegrasikan ke dalam ELS.
 
 ---
@@ -92,13 +89,7 @@ Multi-label classification memungkinkan satu instance memiliki beberapa label se
 | **RBF Network** | Radial Basis Function Network | Non-linear pattern recognition |
 | **Self-Training** | Semi-supervised learning | Leverage unlabeled data patterns |
 
-### 6. Voting Ensemble
-
-Voting Ensemble menggabungkan prediksi dari beberapa model untuk menghasilkan prediksi akhir. Dua metode yang digunakan:
-- **Simple Voting:** Mayoritas suara dari semua model
-- **Weighted Voting:** Memberikan bobot lebih tinggi pada model terbaik
-
-### 7. Penanganan Missing Value: Strategi Imputasi
+### 6. Penanganan Missing Value: Strategi Imputasi
 
 | Strategi | Deskripsi | Karakteristik |
 |----------|-----------|---------------|
@@ -107,7 +98,7 @@ Voting Ensemble menggabungkan prediksi dari beberapa model untuk menghasilkan pr
 | **Median** | Missing → Median kolom | Robust terhadap outlier |
 | **MICE** | Iterative imputation | Menangkap korelasi antar fitur |
 
-### 8. Nested Cross-Validation
+### 7. Nested Cross-Validation
 
 Nested CV mencegah bias dalam estimasi performa dengan memisahkan proses hyperparameter tuning dari evaluasi akhir:
 - **Outer loop (10-fold):** Estimasi performa model
