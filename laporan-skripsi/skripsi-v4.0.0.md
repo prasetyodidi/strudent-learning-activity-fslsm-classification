@@ -181,18 +181,17 @@ Fitur numerik (durasi waktu akses) dinormalisasi menggunakan **StandardScaler**.
 ### 3. Pemodelan Machine Learning
 
 #### a. Algoritma Klasifikasi
-Penelitian ini menggunakan algoritma **XGBoost (Extreme Gradient Boosting)** sebagai model utama untuk prediksi gaya belajar. XGBoost dipilih karena kemampuannya yang superior dalam menangani data tabular, ketahanan terhadap overfitting melalui mekanisme regularisasi, dan efisiensi komputasi yang tinggi.
+Penelitian ini menggunakan algoritma **Random Forest** sebagai model utama untuk prediksi gaya belajar. Random Forest dipilih berdasarkan hasil eksperimen Nested Cross-Validation yang menunjukkan performa terbaik (F1-Macro 0.7063), dengan improvement +2.6% dari konfigurasi default setelah hyperparameter tuning.
 
 #### b. Konfigurasi Hyperparameter
-Model XGBoost dikonfigurasi dengan parameter optimal berikut untuk memaksimalkan performa prediksi:
+Model Random Forest dikonfigurasi dengan parameter optimal berikut (ditemukan melalui Nested Cross-Validation):
 
 | Parameter | Nilai Optimal |
 |-----------|---------------|
 | `n_estimators` | 150 |
-| `max_depth` | 6 |
-| `learning_rate` | 0.1 |
-| `gamma` | 0 |
-| `60` | 0.8 |
+| `max_depth` | 10 |
+| `min_samples_leaf` | 2 |
+| `max_features` | sqrt |
 
 ### 4. Evaluasi Model
 
@@ -214,8 +213,324 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 
 # BAB IV HASIL DAN PEMBAHASAN
 
+## A. Pengumpulan Data
 
----
+Tahap pengumpulan data melibatkan ekstraksi dan penggabungan dua sumber data utama yang berasal dari sistem yang berbeda di Universitas Amikom Purwokerto.
+
+### 1. Dataset FSLSM (Learning Style Assessment)
+
+**Sumber:** Hasil kuesioner Felder-Silverman Learning Style Model (FSLSM)  
+**File:** `dfjadi-simplified.csv`  
+**Jumlah Sampel:** 604 mahasiswa
+
+**Struktur Dataset:**
+
+| Kolom | Tipe | Deskripsi | Contoh Nilai |
+|-------|------|-----------|--------------|
+| `NIM` | String | Nomor Induk Mahasiswa (ID unik) | 22SA11A074, 23SA11A015 |
+| `Nama` | String | Nama lengkap mahasiswa | Maria Angelina C. |
+| `Jenis Kelamin` | Kategori | Jenis kelamin (Laki-laki/Perempuan) | Perempuan |
+| `Prodi` | String | Program studi | Informatika, Bisnis Digital |
+| `Skor 1` | Integer | Skor dimensi Processing (Aktif vs Reflektif) | -7 sampai +7 |
+| `Skor 2` | Integer | Skor dimensi Perception (Sensing vs Intuitif) | -7 sampai +7 |
+| `Skor 3` | Integer | Skor dimensi Input (Visual vs Verbal) | -7 sampai +7 |
+| `Skor 4` | Integer | Skor dimensi Understanding (Sequential vs Global) | -7 sampai +7 |
+| `Pemrosesan` | Kategori | Label Processing (Aktif/Reflektif + intensity) | Reflektif Rendah |
+| `Persepsi` | Kategori | Label Perception (Sensing/Intuitif + intensity) | Sensing Sedang |
+| `Input` | Kategori | Label Input (Visual/Verbal + intensity) | Verbal Sedang |
+| `Pemahaman` | Kategori | Label Understanding (Sequential/Global + intensity) | Sequential Rendah |
+
+**Catatan:** Penelitian ini hanya menggunakan 2 dari 4 dimensi FSLSM, yaitu **Pemrosesan** (Aktif/Reflektif) dan **Input** (Visual/Verbal) sebagai target klasifikasi.
+
+### 2. Dataset Interaksi ELS (Time Tracking)
+
+**Sumber:** Log aktivitas mahasiswa pada Electronic Learning System (ELS)  
+**File:** `mhs_grouping_by_material_type.csv`  
+**Periode:** Agustus 2024
+
+**Struktur Dataset:**
+
+| Kolom | Tipe | Deskripsi | Satuan |
+|-------|------|-----------|--------|
+| `NPM` | String | Nomor Pokok Mahasiswa (ID unik) | - |
+| `NAMA` | String | Nama mahasiswa | - |
+| `time_materials_video` | Integer | Total waktu akses materi video | Detik |
+| `time_materials_document` | Integer | Total waktu akses dokumen PDF/PPT | Detik |
+| `time_materials_article` | Integer | Total waktu akses artikel web | Detik |
+| `time_tasks` | Integer | Total waktu pengerjaan tugas | Detik |
+| `time_forums` | Integer | Total waktu partisipasi forum diskusi | Detik |
+| `time_quizzes` | Integer | Total waktu pengerjaan kuis | Detik |
+
+**Karakteristik Data:**
+- Banyak nilai 0 (zero) yang mengindikasikan mahasiswa tidak mengakses jenis materi tertentu
+- Distribusi sangat *sparse* (jarang):
+  - `time_quizzes`: Semua nilai 0 (tidak ada data)
+  - `time_tasks`: Hanya ~3 nilai non-zero
+  - `time_forums`: Hanya ~4 nilai non-zero
+  - Ketiga kolom ini tidak digunakan dalam model karena sparsity yang ekstrim
+
+### 3. Proses Integrasi Dataset
+
+**Metode Penggabungan:** Inner Join berdasarkan ID mahasiswa (NIM = NPM)
+
+**Langkah Integrasi:**
+1. **Standardisasi ID:** Normalisasi format NIM/NPM (uppercase, trim whitespace)
+2. **Inner Join:** Menggabungkan hanya mahasiswa yang memiliki data lengkap di kedua dataset
+3. **Seleksi Fitur:** Memilih 3 fitur waktu akses materi (`time_materials_video`, `time_materials_document`, `time_materials_article`) dan 4 label gaya belajar (`Aktif`, `Reflektif`, `Visual`, `Verbal`)
+
+**Hasil Integrasi:**
+
+| Aspek | Jumlah | Keterangan |
+|-------|--------|------------|
+| Dataset FSLSM (Assessment) | 604 mahasiswa | Hasil kuesioner gaya belajar |
+| Dataset Interaksi (ELS) | Bervariasi | Log waktu akses materi |
+| **Hasil Inner Join** | **123 mahasiswa** | **Match rate: 20.4% (123/604)** |
+| Fitur (Predictor) | 3 kolom | Waktu akses: video, document, article |
+| Label (Target) | 4 kelas | Aktif, Reflektif, Visual, Verbal |
+
+**Penyebab Match Rate Rendah (20.4%):**
+- Tidak semua mahasiswa yang mengisi kuesioner FSLSM aktif mengakses materi di ELS pada periode Agustus 2024
+- Perbedaan format ID (NIM vs NPM) menyebabkan beberapa data tidak ter-match
+- Mahasiswa yang tidak login ke ELS tidak memiliki data interaksi
+
+**Dataset Akhir yang Digunakan:**
+- **123 sampel** mahasiswa dengan data lengkap
+- **3 fitur** numerik (waktu akses materi)
+- **4 label** biner (multi-label classification)
+
+
+## B. Preprocessing Data
+
+### 1. Eksperimen Strategi Imputasi
+
+Empat strategi imputasi diuji menggunakan Random Forest sebagai baseline classifier dengan 10-Fold Cross-Validation:
+
+| Strategi | F1-Macro | Std | Ranking |
+|----------|----------|-----|---------|
+| **Median** | **0.7083** | ±0.0814 | **🥇 1** |
+| Mean | 0.6976 | ±0.0572 | 🥈 2 |
+| Zero | 0.6708 | ±0.0812 | 🥉 3 |
+| MICE | 0.6216 | ±0.0619 | 4 |
+
+**Analisis:**
+- **Median Imputation** memberikan hasil terbaik dengan margin +1.07% dibanding Mean.
+- MICE (Multiple Imputation by Chained Equations) menunjukkan performa terendah, kemungkinan karena overfitting pada korelasi yang tidak representatif dengan dataset kecil.
+- Zero Imputation yang menganggap missing sebagai "tidak ada aktivitas" memberikan hasil moderat.
+
+**Keputusan:** Dataset dengan **Median Imputation** dipilih untuk tahap selanjutnya.
+
+### 2. Label Encoding dan Normalisasi
+
+Setelah preprocessing, dataset siap untuk pemodelan:
+- **Label:** Ditransformasi menggunakan MultiLabelBinarizer (4 kelas: Aktif, Reflektif, Visual, Verbal)
+- **Fitur:** Dinormalisasi dengan StandardScaler (mean=0, std=1)
+
+## C. Penanganan Class Imbalance
+
+### 1. Distribusi Label Sebelum Oversampling
+
+Analisis distribusi menunjukkan ketidakseimbangan yang signifikan:
+
+| Kombinasi Label | Jumlah | Persentase |
+|-----------------|--------|------------|
+| [Reflektif, Verbal] | 70 | 56.9% ← Mayoritas |
+| [Aktif, Verbal] | 26 | 21.1% |
+| [Reflektif, Visual] | 23 | 18.7% |
+| [Aktif, Visual] | 4 | 3.3% ← Minoritas |
+
+**Imbalance Ratio:** 17.5:1 (⚠️ Severe Imbalance)
+
+### 2. Eksperimen Teknik Oversampling
+
+Penelitian ini menggunakan **Random Oversampling** sebagai teknik untuk menangani class imbalance pada data multi-label. Teknik ini dipilih karena:
+
+**Alasan Pemilihan Random Oversampling:**
+1. **Kesederhanaan:** Mudah diimplementasikan untuk multi-label classification
+2. **Efektivitas untuk small dataset:** Cocok untuk dataset dengan jumlah sampel terbatas (123 sampel)
+3. **Preservasi distribusi:** Tidak mengubah karakteristik asli data minoritas
+4. **Konsistensi multi-label:** Menjaga konsistensi kombinasi label saat duplikasi
+
+**Alternatif yang Dipertimbangkan:**
+- **MLSMOTE (Multi-Label SMOTE):** Membutuhkan sampel lebih banyak untuk synthetic generation
+- **ADASYN:** Kompleks untuk multi-label case dengan 4 label simultan
+- Diputuskan menggunakan Random Oversampling karena reliabilitas pada small multi-label dataset
+
+### 3. Hasil Random Oversampling
+
+**Konfigurasi:**
+- **Sampling Ratio:** 1.5x (meningkatkan kelas minoritas sebesar 150%)
+- **Mode:** Duplicasi sampel minoritas secara random dengan replacement
+
+**Hasil:**
+
+| Metrik | Sebelum | Sesudah | Perubahan |
+|--------|---------|---------|-----------|
+| Total Sampel | 123 | 230 | +87% (+107 sampel) |
+| Imbalance Ratio | 17.5:1 | ~4.5:1 | ✅ Improved 74% |
+| Kelas Mayoritas | 70 sampel | ~70 sampel | Tetap |
+| Kelas Minoritas | 4 sampel | ~15-16 sampel | Meningkat |
+
+**Temuan:** Random Oversampling berhasil mengurangi imbalance ratio dari 17.5:1 menjadi ~4.5:1, meningkatkan representasi kelas minoritas tanpa mengubah distribusi fitur secara signifikan.
+
+## D. Pemodelan Machine Learning
+
+### 1. Perbandingan Lima Algoritma (Default Parameters)
+
+Evaluasi awal dengan 10-Fold Stratified Cross-Validation:
+
+| Rank | Algoritma | F1-Macro | F1-Micro | Hamming Loss | Subset Acc |
+|------|-----------|----------|----------|--------------|------------|
+| 🥇 | **XGBoost** | **0.7008** | 0.7565 | 0.2435 | 0.5609 |
+| 🥈 | Self-Training | 0.6922 | 0.7500 | 0.2500 | 0.5478 |
+| 🥉 | Random Forest | 0.6884 | 0.7457 | 0.2543 | 0.5391 |
+| 4 | RBF Network | 0.4359 | 0.6304 | 0.3696 | 0.3130 |
+| 5 | SVM | 0.4357 | 0.6304 | 0.3696 | 0.3130 |
+
+**Analisis:**
+- **XGBoost** menunjukkan performa terbaik dengan F1-Macro 0.7008.
+- **Self-Training** dan **Random Forest** memberikan hasil kompetitif (margin <1%).
+- **SVM** dan **RBF Network** menunjukkan performa lebih rendah, kemungkinan karena kurangnya fitur untuk membangun decision boundary yang optimal.
+
+### 2. Hasil Hyperparameter Tuning (Nested CV)
+
+Nested Cross-Validation (10-fold outer, 5-fold inner) dilakukan untuk optimasi parameter:
+
+| Algoritma | Default F1 | Nested CV F1 | Std | Perubahan |
+|-----------|------------|--------------|-----|-----------|
+| Random Forest | 0.6884 | 0.7063 | ±0.0794 | **+2.6%** |
+| XGBoost | 0.7008 | 0.7052 | ±0.0952 | +0.6% |
+| Self-Training | 0.6922 | 0.6922 | ±0.0904 | +0.0% |
+| SVM | 0.4357 | 0.4348 | ±0.0604 | -0.2% |
+| RBF Network | 0.4359 | 0.4343 | ±0.0579 | -0.4% |
+
+**Best Hyperparameters yang Ditemukan:**
+
+| Algoritma | Parameter Optimal |
+|-----------|-------------------|
+| XGBoost | `max_depth=6`, `learning_rate=0.1`, `n_estimators=150`, `gamma=0` |
+| Random Forest | `max_depth=10`, `n_estimators=150`, `min_samples_leaf=2` |
+| SVM | `C=1.0`, `kernel=rbf`, `gamma=scale` |
+| RBF Network | `n_centers=15`, `spread_factor=1.2` |
+| Self-Training | `threshold=0.6` |
+
+## E. Evaluasi Model
+
+Berdasarkan seluruh eksperimen yang telah dilakukan, berikut adalah evaluasi komprehensif terhadap kelima algoritma yang diuji.
+
+### 1. Perbandingan Performa Kelima Algoritma
+
+Evaluasi menggunakan 10-Fold Stratified Cross-Validation pada dataset optimal (Median Imputation, 230 sampel) **dengan hyperparameter hasil Nested CV**:
+
+| Rank | Algoritma | F1-Macro | F1-Micro | Hamming Loss | Subset Acc | Std |
+|------|-----------|----------|----------|--------------|------------|-----|
+| 🥇 | **Random Forest** | **0.7063** | **0.7522** | **0.2478** | **0.5478** | ±0.0794 |
+| 🥈 | XGBoost | 0.7052 | 0.7565 | 0.2435 | 0.5609 | ±0.0952 |
+| 🥉 | Self-Training | 0.6922 | 0.7500 | 0.2500 | 0.5478 | ±0.0904 |
+| 4 | SVM | 0.4348 | 0.6304 | 0.3696 | 0.3130 | ±0.0604 |
+| 5 | RBF Network | 0.4343 | 0.6304 | 0.3696 | 0.3130 | ±0.0579 |
+
+**Catatan:** Hasil menggunakan parameter optimal dari Nested Cross-Validation. Random Forest menunjukkan improvement terbesar (+2.6%) dari hyperparameter tuning.
+
+### 2. Analisis Per-Algoritma
+
+#### a. Random Forest (Pemenang)
+
+**Performa:**
+- **F1-Macro:** 0.7063 (Terbaik setelah tuning)
+- **F1-Micro:** 0.7522
+- **Subset Accuracy:** 54.78%
+- **Improvement:** +2.6% dari default (0.6884 → 0.7063)
+
+**Keunggulan:**
+- **Ensemble of trees:** Mengurangi variance melalui bagging
+- **Feature importance:** Dapat mengidentifikasi fitur paling berpengaruh  
+- **Improvement terbesar:**  Nested CV memberikan peningkatan signifikan (+2.6%)
+- **Konsistensi:** Standar deviasi 0.0794 menunjukkan stabilitas tinggi
+
+**Hyperparameter Optimal (dari Nested CV):**
+- `max_depth=10`, `n_estimators=150`, `min_samples_leaf=2`
+
+#### b. XGBoost (Runner-up)
+
+**Performa:**
+- **F1-Macro:** 0.7052 (Gap -0.15% dari RF)
+- **F1-Micro:** 0.7565 (Terbaik)
+- **Subset Accuracy:** 56.09% (Terbaik - prediksi semua label tepat)
+
+**Keunggulan:**
+- **Regularization L1/L2:** Mencegah overfitting pada dataset kecil (230 sampel)
+- **Gradient Boosting:** Mampu menangkap pola non-linear kompleks dalam relasi waktu-label
+- **Built-in Missing Value Handling:** Robust terhadap sparse data (banyak nilai 0)
+
+**Hyperparameter Optimal (dari Nested CV):**
+- `max_depth=6`, `learning_rate=0.1`, `n_estimators=150`, `gamma=0`, `subsample=0.8`
+
+#### c. Self-Training (Rank 3)
+
+**Performa:**
+- **F1-Macro:** 0.6922 (Gap -2.0% dari RF)
+- **F1-Micro:** 0.7500
+- **Subset Accuracy:** 54.78%
+
+**Keunggulan:**
+- **Semi-supervised learning:** Memanfaatkan pola confidence dari prediksi model
+- **Performa kompetitif:** Hanya selisih ~0.01 dengan top 2
+- **Robust:** Standar deviasi 0.0904 (sangat stabil)
+- **No tuning needed:** Hyperparameter sudah optimal di nilai default
+
+**Hyperparameter Optimal:**
+- `threshold=0.6` (confidence threshold untuk pseudo-labeling)
+
+#### d. SVM (Rank 4)
+
+**Performa:**
+- **F1-Macro:** 0.4348 (Gap -38.5% dari RF)
+- **F1-Micro:** 0.6304
+- **Subset Accuracy:** 31.30%
+
+**Analisis:**
+- **Linear/RBF kernel limitations:** Decision boundary tidak cukup kompleks untuk menangkap pola waktu-label
+- **Small feature space:** Dengan 3 fitur, SVM sulit memisahkan 4 label simultan
+- **Baseline role:** Berfungsi sebagai baseline untuk membandingkan metode ensemble
+- **Slight degradation from tuning:** Tuning menurunkan performa -0.2%
+
+**Hyperparameter Optimal:**
+- `C=1.0`, `kernel=rbf`, `gamma=scale`
+
+#### e. RBF Network (Rank 5)
+
+**Performa:**
+- **F1-Macro:** 0.4343 (Gap -38.5% dari RF)
+- **F1-Micro:** 0.6304
+- **Subset Accuracy:** 31.30%
+
+**Analisis:**
+- **Keterbatasan:** Membutuhkan lebih banyak fitur untuk membangun RBF centers yang representatif
+- **Overfitting risk:** Dengan hanya 3 fitur, model kesulitan generalisasi
+- **Baseline alternatif:** Performa setara dengan SVM sebagai baseline
+- **Slight degradation from tuning:** Tuning menurunkan performa -0.4%
+
+**Hyperparameter Optimal:**
+- `n_centers=15`, `spread_factor=1.2`
+
+### 3. Kesimpulan Evaluasi
+
+**Model Terpilih:** Random Forest dengan konfigurasi hyperparameter optimal
+
+**Alasan Pemilihan:**
+1. **Performa terbaik:** F1-Macro 0.7063 (unggul setelah hyperparameter tuning)
+2. **Konsistensi:** Standar deviasi 0.0794 menunjukkan stabilitas sangat tinggi
+3. **Generalitas:** Nested CV memastikan performa tidak bias
+4. **Improvement signifikan:** +2.6% dari default menunjukkan efektivitas tuning
+5. **Efisiensi:** Training time < 5 detik pada dataset 230 sampel
+
+**Gap Performa:**
+- Top 3 (RF, XGBoost, Self-Training): Gap < 2% → **Highly competitive**
+- Bottom 2 (SVM, RBF): Gap > 38% → **Keterbatasan untuk task ini**
+
+**Catatan Penting:** Meskipun XGBoost memiliki Subset Accuracy lebih tinggi (56.09% vs 54.78%), Random Forest unggul di metrik F1-Macro yang menjadi metrik utama evaluasi multi-label classification.
+
+
 
 # BAB V KESIMPULAN DAN SARAN
 
@@ -223,13 +538,11 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 
 1. Aktivitas mahasiswa dalam ELS dapat dipetakan ke dimensi FSLSM menggunakan pendekatan multi-label classification dengan memanfaatkan data waktu interaksi.
 
-2. Strategi imputasi **Median** memberikan hasil terbaik (F1-Macro 0.6884) dibandingkan Mean, Zero, dan MICE.
+2. Strategi imputasi **Median** memberikan hasil terbaik (F1-Macro 0.7083 dengan Random Forest baseline) dibandingkan Mean, Zero, dan MICE.
 
-3. **XGBoost** mencapai F1-Macro **0.7008**, menjadi algoritma terbaik di antara 5 algoritma yang diuji.
+3. **Random Forest** dengan hyperparameter tuning Nested CV mencapai F1-Macro **0.7063**, menjadi algoritma terbaik di antara 5 algoritma yang diuji, dengan peningkatan +2.6% dari konfigurasi default.
 
-4. **Voting Ensemble** tidak meningkatkan performa dibandingkan XGBoost single model, menunjukkan bahwa dalam kasus ini pendekatan ensemble tidak diperlukan.
-
-5. Lima algoritma berhasil dievaluasi dengan **Nested Cross-Validation** untuk hyperparameter tuning yang unbiased.
+4. Lima algoritma berhasil dievaluasi dengan **Nested Cross-Validation** untuk hyperparameter tuning yang unbiased, dengan top 3 (Random Forest, XGBoost, Self-Training) menunjukkan gap < 2%.
 
 ## B. Saran
 
@@ -237,7 +550,7 @@ Pendekatan ini memastikan bahwa data yang digunakan untuk testing benar-benar te
 
 2. **Penambahan Fitur:** Mengintegrasikan fitur dari 6 kolom asli (termasuk tasks, forums, quizzes) jika data tersedia.
 
-3. **Implementasi Sistem:** Mengintegrasikan model XGBoost ke dalam ELS Amikom untuk personalisasi pembelajaran real-time.
+3. **Implementasi Sistem:** Mengintegrasikan model Random Forest ke dalam ELS Amikom untuk personalisasi pembelajaran real-time.
 
 4. **Eksplorasi Algoritma Lanjutan:** Mencoba Classifier Chains atau Label Powerset untuk menangkap dependensi antar label.
 
